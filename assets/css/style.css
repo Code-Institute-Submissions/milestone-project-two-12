@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: inline;
+}
+
+.divider {
+    width: 100%;
+    height: 10px;
+    background-color: #B01200;
+    overflow: hidden;
+}
+
+/* ========================================== HEADER STYLING ========================================== */
+header {
+    width:100%;
+    height: 250px;
+    overflow: hidden;
+    background-color: #B01200;
+    
+}
+
+#menu-bar-top {
+    width:100%;
+    background-color: #B01200;
+}
+
+#menu-bar-bottom {
+    width:100%;
+    background-color: #B01200;
+}
+
+#menu-bar-top, #menu-bar-bottom {
+    display: inline-block;
+    position: relative;
+}
+#menu-bar-bottom-inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#menu-bar-top h1 {
+    font-size: 50px;
+    margin: 25px 50px 25px 50px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+#menu {
+    list-style-type: none;
+    background-color: lightgray;
+}
+
+#menu a {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
+
+#menu a:link {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: white; 
+}
+
+#menu li {
+    float: left;
+    background-color: #B01200;
+    color: white;
+    margin: 20px;
+}
+
+#menu li:hover {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+
+/* ========================================== FOOTER.HTML STYLING ========================================== */
+
+/* ========================================== INDEX.HTML STYLING ========================================== */
+
+/* ================================== WELCOME SECTION STYLING ================================== */
+
+#welcome-section {
+    width:100%;
+    height: 900px;
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+
+#bradda-head {
+    width: 100%;
+}
+
+/* ================================== BASIC INFO SECTION STYLING ================================== */
+#basic-info-section {
+    width:100%;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+/* ================================== FACTS SECTION STYLING ================================== */
+#facts-section {
+    width:100%;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid green;
+}
+
+/* ================================== MAPS SECTION STYLING ================================== */
+#maps-section {
+    width:100%;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+/* ================================== USEFUL LINKS SECTION STYLING ================================== */
+
+#useful-links-section {
+    width:100%;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid green;
+}
+/* ========================================== CONTACT.HTML STYLING ========================================== */
+
+
+/* ========================================== TABLET STYLING ========================================== */
+
+@media screen and (max-width: 1393px){
+    body {
+        background-color: lightyellow;
+    }
+
+   
+}
+
+
+/* =============================================== MOBILE PHONE SCREENS =============================================== */
+
+@media screen and (max-width: 768px){
+    body {
+        background-color: lightsteelblue;
+    }
+
+
+}
