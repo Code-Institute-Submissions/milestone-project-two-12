@@ -20,6 +20,6 @@ $("#welcome-box").mouseleave(function(){
 });
 
 /* Flips the cards in the basic information section*/
-$("#inner-left").hover(function(){
+$("#capital").hover(function(){
     $("#capital-container").toggleClass("rotate");
 });
