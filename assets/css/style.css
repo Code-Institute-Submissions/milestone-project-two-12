@@ -8,6 +8,9 @@
 
 h1 {
     font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 5px;
 }
 
 p, li {
@@ -54,10 +57,7 @@ header {
 }
 
 #menu-bar-top h1 {
-    font-size: 50px;
     margin: 25px 50px 25px 50px;
-    color: white;
-    letter-spacing: 5px;
 }
 
 #menu {
@@ -116,7 +116,7 @@ header {
 }
 
 #welcome-box {
-    width: 500px;
+    width: 700px;
     height: 500px;
     color: white;
     position: relative;
@@ -151,9 +151,94 @@ header {
 /* ================================== BASIC INFO SECTION STYLING ================================== */
 #basic-info-section {
     width:100%;
-    height: 500px;
+    height: 1000px;
     overflow: hidden;
     border: 1px solid red; /* Remove later */
+}
+
+#basic-info-header {
+    width: 100%;
+    height: 100px;
+    background-color: #B01200;
+    color: white;
+}
+
+#basic-info-header h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#basic-info-inner {
+    width: 100%;
+    height: 900px;
+}
+
+#inner-left, #inner-center, #inner-right {
+    display: inline-block;
+    width: 33.3%;
+    height: 100%;
+}
+
+#inner-left, #inner-center, #inner-right {
+    position: relative;
+}
+
+#inner-left {
+    float: left;
+}
+
+#inner-center {
+    margin: 0 auto;
+}
+
+#inner-right {
+    float: right;
+}
+
+.basic-info-boxes {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+#capital {
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+}
+
+#capital-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+#capital-front, #capital-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+#capital-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: lightcyan;
+}
+
+#capital-back {
+    transform: rotateY(180deg);
+}
+
+.rotate {
+    transform: rotateY(180deg);
 }
 
 /* ================================== FACTS SECTION STYLING ================================== */

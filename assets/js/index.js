@@ -19,3 +19,7 @@ $("#welcome-box").mouseleave(function(){
     $("#bradda-head").fadeTo(1000, 0.8);
 });
 
+/* Flips the cards in the basic information section*/
+$("#inner-left").hover(function(){
+    $("#capital-container").toggleClass("rotate");
+});
