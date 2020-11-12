@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -13,8 +14,23 @@ h1 {
     letter-spacing: 5px;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
 p, li {
     font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
 body {
@@ -176,6 +192,12 @@ footer {
 
 /* ========================================== INDEX.HTML STYLING ========================================== */
 
+.section-headings {
+    text-align: center;
+    font-size: 50px;
+}
+
+
 /* ================================== WELCOME SECTION STYLING ================================== */
 
 #welcome-section {
@@ -201,6 +223,7 @@ footer {
     text-align: center;
     opacity: 0.7;
     background-color:#B01200;
+    font-family: 'Roboto', sans-serif;
 }
 
 #welcome-text {
@@ -272,13 +295,13 @@ footer {
 }
 
 
-#capital {
+#capital, #population, #language, #flag {
     width: 100%;
     height: 100%;
     perspective: 1000px;
 }
 
-#capital-container {
+#capital-container, #population-container, #language-container, #flag-container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -287,7 +310,7 @@ footer {
     transform-style: preserve-3d;
 }
 
-#capital-front, #capital-back {
+.flip-box {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -296,15 +319,44 @@ footer {
     backface-visibility: hidden;
 }
 
-#capital-inner {
+.basic-info-boxes-inner {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: lightcyan;
+    background-color: #B01200;
 }
 
-#capital-back {
+#capital-back, #population-back, #language-back, #flag-back {
     transform: rotateY(180deg);
+}
+
+#population-back p a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+#IoM-flag {
+    width: 200px;
+}
+
+.flip-box {
+    padding-top: 10px;
+}
+.flip-box h2 {
+    padding-top: 25%;
+    font-size: 50px;
+    color: white;
+}
+
+.flip-box h3 {
+    font-size: 25px;
+    color: white;
+}
+
+.flip-box p {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
 }
 
 .rotate {
