@@ -20,18 +20,22 @@ $("#welcome-box").mouseleave(function(){
 });
 
 /* Flips the cards in the basic information section*/
-$("#capital").hover(function(){
+$("#capital").click(function(){
     $("#capital-container").toggleClass("rotate");
 });
 
-$("#population").hover(function(){
+$("#population").click(function(){
     $("#population-container").toggleClass("rotate");
 });
 
-$("#language").hover(function(){
+$("#language").click(function(){
     $("#language-container").toggleClass("rotate");
 });
 
-$("#flag").hover(function(){
+$("#flag").click(function(){
     $("#flag-container").toggleClass("rotate");
+});
+
+$("#currency").click(function(){
+    $("#currency-container").toggleClass("rotate");
 });

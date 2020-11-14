@@ -295,13 +295,13 @@ footer {
 }
 
 
-#capital, #population, #language, #flag {
+#capital, #population, #language, #flag, #currency {
     width: 100%;
     height: 100%;
     perspective: 1000px;
 }
 
-#capital-container, #population-container, #language-container, #flag-container {
+#capital-container, #population-container, #language-container, #flag-container, #currency-container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -326,7 +326,7 @@ footer {
     background-color: #B01200;
 }
 
-#capital-back, #population-back, #language-back, #flag-back {
+#capital-back, #population-back, #language-back, #flag-back, #currency-back {
     transform: rotateY(180deg);
 }
 
@@ -335,7 +335,7 @@ footer {
     border-bottom: 1px solid white;
 }
 
-#IoM-flag {
+#IoM-flag, #IoM5er {
     width: 200px;
 }
 
