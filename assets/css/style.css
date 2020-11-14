@@ -295,13 +295,13 @@ footer {
 }
 
 
-#capital, #population, #language, #flag, #currency {
+#capital, #population, #language, #flag, #currency, #nationality, #climate, #government, #workpermit {
     width: 100%;
     height: 100%;
     perspective: 1000px;
 }
 
-#capital-container, #population-container, #language-container, #flag-container, #currency-container {
+#capital-container, #population-container, #language-container, #flag-container, #currency-container, #nationality-container, #climate-container, #government-container, #workpermit-container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -326,11 +326,16 @@ footer {
     background-color: #B01200;
 }
 
-#capital-back, #population-back, #language-back, #flag-back, #currency-back {
+#capital-back, #population-back, #language-back, #flag-back, #currency-back, #nationality-back, #climate-back, #government-back, #workpermit-back {
     transform: rotateY(180deg);
 }
 
 #population-back p a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+#government-back p a:hover {
     padding-bottom: 5px;
     border-bottom: 1px solid white;
 }

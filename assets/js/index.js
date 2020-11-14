@@ -39,3 +39,31 @@ $("#flag").click(function(){
 $("#currency").click(function(){
     $("#currency-container").toggleClass("rotate");
 });
+
+$("#nationality").click(function(){
+    $("#nationality-container").toggleClass("rotate");
+});
+
+$("#climate").click(function(){
+    $("#climate-container").toggleClass("rotate");
+});
+
+$("#government").click(function(){
+    $("#government-container").toggleClass("rotate");
+});
+
+$("#workpermit").click(function(){
+    $("#workpermit-container").toggleClass("rotate");
+});
+
+$("#basic-info-inner").mouseleave(function(){
+    $("#capital-container").removeClass("rotate");
+    $("#population-container").removeClass("rotate");
+    $("#language-container").removeClass("rotate");
+    $("#flag-container").removeClass("rotate");
+    $("#currency-container").removeClass("rotate");
+    $("#nationality-container").removeClass("rotate");
+    $("#climate-container").removeClass("rotate");
+    $("#government-container").removeClass("rotate");
+    $("#workpermit-container").removeClass("rotate");
+});
