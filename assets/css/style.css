@@ -295,7 +295,7 @@ footer {
 .basic-info-boxes {
     width: 100%;
     height: 300px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 
@@ -383,7 +383,7 @@ footer {
 /* ================================== MAPS SECTION STYLING ================================== */
 #maps-section {
     width:100%;
-    height: 1000px;
+    height: 1200px;
     overflow: hidden;
 }
 
@@ -401,6 +401,49 @@ footer {
     height: 700px;
     margin: 0 auto;
     margin-top: 50px;
+    border: #B01200 10px solid;
+}
+
+#activities-container {
+    height: 200px;
+    width: 100%;
+    border: 1px black solid;
+    position: relative;
+}
+
+.map-info-window {
+    height: 150px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #B01200;
+}
+
+.map-info-window h2 {
+    color: #B01200;
+    font-size: 20px;
+}
+
+.map-info-window p, .map-info-window a {
+    font-size: 15px;
+    text-align: center;
+    color: #B01200;
+}
+
+.map-info-window i {
+    font-size: 75px;
+    text-align: center;
+}
+
+.map-info-window p i {
+    text-align: center;
+    color: gold;
+    font-size: 15px;
+}
+
+.map-info-window p a:hover {
+    padding-bottom: 1px;
+    border-bottom: 1px solid #B01200;
 }
 
 /* ================================== USEFUL LINKS SECTION STYLING ================================== */
