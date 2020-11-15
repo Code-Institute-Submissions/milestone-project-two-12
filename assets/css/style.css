@@ -18,6 +18,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     color: white;
+    text-align: center;
 }
 
 h3 {
@@ -195,6 +196,9 @@ footer {
 .section-headings {
     text-align: center;
     font-size: 50px;
+    background-color: #B01200;
+    height: 100px;
+    padding-top: 10px;
 }
 
 
@@ -224,6 +228,8 @@ footer {
     opacity: 0.7;
     background-color:#B01200;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 #welcome-text {
@@ -246,19 +252,17 @@ footer {
     width:100%;
     height: 1000px;
     overflow: hidden;
-    border: 1px solid red; /* Remove later */
-}
-
-#basic-info-header {
-    width: 100%;
-    height: 100px;
-    background-color: #B01200;
-    color: white;
 }
 
 #basic-info-header h1 {
     text-align: center;
     font-size: 50px;
+}
+
+#basic-info-header p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
 }
 
 #basic-info-inner {
@@ -397,13 +401,6 @@ footer {
     height: 700px;
     margin: 0 auto;
     margin-top: 50px;
-}
-
-#map-header {
-    width: 100%;
-    height: 100px;
-    background-color: #B01200;
-    color: white;
 }
 
 /* ================================== USEFUL LINKS SECTION STYLING ================================== */
