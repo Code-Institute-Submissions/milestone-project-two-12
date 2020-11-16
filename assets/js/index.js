@@ -7,18 +7,35 @@ function initMap(){
     );
     
     const locations = [
-        { lat: 54.063889, lng: -4.792477 },
-        { lat: 54.223635, lng: -4.393898 },
-        { lat: 54.153042, lng: -4.479047 },
-        { lat: 54.106170, lng: -4.638335 },
-        { lat: 54.226702, lng: -4.392331 },
-        { lat: 54.169741, lng: -4.455851 },
-        { lat: 54.146948, lng: -4.484625 },
-        { lat: 54.152763, lng: -4.478363 },
-        { lat: 54.073717, lng: -4.652186 },
-        { lat: 54.226539, lng: -4.699166 },
-        { lat: 54.238371, lng: -4.407430 },
-        { lat: 54.060854, lng: -4.803142 },
+        { lat: 54.063889, lng: -4.792477 }, /* (A) The Cafe At The Sound */
+        { lat: 54.223635, lng: -4.393898 }, /* (B) The Shed */
+        { lat: 54.153042, lng: -4.479047 }, /* (C) The Tea Junction */
+        { lat: 54.106170, lng: -4.638335 }, /* (D) Silverdale Glen Cafe */
+        { lat: 54.226702, lng: -4.392331 }, /* (E) La Mona Lisa */
+        { lat: 54.169741, lng: -4.455851 }, /* (F) Ocean Views Bar & Grill */
+        { lat: 54.146948, lng: -4.484625 }, /* (G) Portofino Restaurant */
+        { lat: 54.152763, lng: -4.478363 }, /* (H) Jaks Bar and Stakehouse */
+        { lat: 54.073717, lng: -4.652186 }, /* (I) Castle Rushen */
+        { lat: 54.226539, lng: -4.699166 }, /* (J) Peel Castle */
+        { lat: 54.238371, lng: -4.407430 }, /* (K) Laxey Wheel */
+        { lat: 54.060854, lng: -4.803142 }, /* (L) Calf of Mann */
+    ];
+    
+    var locationInfo = [
+        ['<div class="map-info-window"><h2>The Cafe At The Sound</h2>' + '<i class="fas fa-coffee"></i>'+ '<p><a href="https://www.thesound.im/" target="_blank">View Website</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>The Shed</h2>' + '<i class="fas fa-coffee"></i>'+ '<p><a href="https://www.facebook.com/theshedlaxey/" target="_blank">View on Facebook</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>The Tea Junction</h2>' + '<i class="fas fa-coffee"></i>'+ '<p><a href="https://theteajunction.im/" target="_blank">View Website</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>Silverdale Glen Cafe</h2>' + '<i class="fas fa-coffee"></i>'+ '<p><a href="https://www.facebook.com/SilverdaleGlen/" target="_blank">View on Facebook</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+    
+        ['<div class="map-info-window"><h2>La Mona Lisa</h2>' + '<i class="fas fa-utensils"></i>'+ '<p><a href="http://www.lamonalisa.im/" target="_blank">View Website</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>Ocean Views Bar & Grill</h2>' + '<i class="fas fa-utensils"></i>'+ '<p><a href="https://oceanviews.im/" target="_blank">View Website</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>Portofino Restaurant</h2>' + '<i class="fas fa-utensils"></i>'+ '<p><a href="https://www.portofino.im/" target="_blank">View Website</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>Jaks Bar and Stakehouse</h2>' + '<i class="fas fa-utensils"></i>'+ '<p><a href="https://www.jakspub.com/" target="_blank">View on Facebook</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+    
+        ['<div class="map-info-window"><h2>Castle Rushen</h2>' + '<i class="fab fa-fort-awesome"></i>'+ '<p><a href="https://manxnationalheritage.im/our-sites/castle-castletown/" target="_blank">Learn more</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>Peel Castle</h2>' + '<i class="fab fa-fort-awesome"></i>'+ '<p><a href="https://manxnationalheritage.im/our-sites/peel-castle/" target="_blank">Learn more</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>Laxey Wheel</h2>' + '<i class="fab fa-fort-awesome"></i>'+ '<p><a href="https://manxnationalheritage.im/our-sites/laxey-wheel/" target="_blank">Learn more</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
+        ['<div class="map-info-window"><h2>Calf of Mann</h2>' + '<i class="fab fa-fort-awesome"></i>'+ '<p><a href="https://manxnationalheritage.im/visit/stay-with-us/calf-of-man-bird-observatory/" target="_blank">Learn more</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>'],
     ];
     
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -27,9 +44,22 @@ function initMap(){
         return new google.maps.Marker({
         position: location,
         label: labels[i % labels.length],
+        content: locationInfo[i]
         });
-    });
+    }); 
+
+     
+
+
 /*
+    
+
+
+
+
+
+
+
     var cafes = [
         ['<div class="map-info-window"><h2>The Cafe At The Sound</h2>' + '<i class="fas fa-coffee"></i>'+ '<p><a href="https://www.thesound.im/" target="_blank">View Website</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>', 54.063889, -4.792477, 4],
         ['<div class="map-info-window"><h2>The Shed</h2>' + '<i class="fas fa-coffee"></i>'+ '<p><a href="https://www.facebook.com/theshedlaxey/" target="_blank">View on Facebook</a></p>'+'<br>' +'<p><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star-half"></i></p></div>', 54.223635, -4.393898, 3],
@@ -104,10 +134,6 @@ function initMap(){
     new MarkerClusterer(map, markers, {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m', 
     });
-
-    
-
-
 }
 
 
@@ -170,4 +196,15 @@ $("#basic-info-inner").mouseleave(function(){
     $("#climate-container").removeClass("rotate");
     $("#government-container").removeClass("rotate");
     $("#workpermit-container").removeClass("rotate");
+});
+
+/* Location info */
+$("#button-a").click(function(){
+    $(".location").css("display","none");
+    $("#sound-cafe").css("display","inline-block");
+});
+
+$("#button-b").click(function(){
+    $(".location").css("display","none");
+    $("#shed-cafe").css("display","inline-block");
 });
