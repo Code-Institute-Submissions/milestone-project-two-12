@@ -1,8 +1,8 @@
 function initMap(){
-    var myHome = {lat: 54.152804, lng: -4.497640};
+    var mapCenter = {lat: 54.236107, lng: -4.548056};
     var map = new google.maps.Map(document.getElementById("map"),{
         zoom: 10,
-        center: myHome,
+        center: mapCenter,
         }
     );
     
