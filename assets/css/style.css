@@ -456,7 +456,7 @@ footer {
 }
 
 #location-details-inner {
-    height: 500px;
+    height: 450px;
     width: 500px;
     position: relative;
     margin: 0 auto; 
@@ -467,6 +467,7 @@ footer {
     width: 700px;
     margin: 0 auto;
     background-color: lightgoldenrodyellow;
+    margin-top: 20px;
 }
 
 .buttons {
@@ -524,12 +525,12 @@ footer {
 
 .location-image-container {
     width: 95%;
-    height: 310px;
+    height: 250px;
     position: relative;
     margin: 0 auto;
     border: #B01200 1px solid;
     overflow: hidden;
-    border-radius: 25%;
+    border-radius: 20px;
 }
 
 .location-pics {
@@ -561,6 +562,7 @@ footer {
     border-radius: 5px;
     margin:5px;
     padding: 5px;
+    
 }
 
 .website-link a:hover {

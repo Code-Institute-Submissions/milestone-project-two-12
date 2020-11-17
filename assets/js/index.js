@@ -208,3 +208,56 @@ $("#button-b").click(function(){
     $(".location").css("display","none");
     $("#shed-cafe").css("display","inline-block");
 });
+
+$("#button-c").click(function(){
+    $(".location").css("display","none");
+    $("#tea-junction").css("display","inline-block");
+});
+
+$("#button-d").click(function(){
+    $(".location").css("display","none");
+    $("#silverdale").css("display","inline-block");
+});
+
+$("#button-e").click(function(){
+    $(".location").css("display","none");
+    $("#mona-lisa").css("display","inline-block");
+});
+
+$("#button-f").click(function(){
+    $(".location").css("display","none");
+    $("#shed-cafe").css("display","inline-block");
+});
+
+$("#button-g").click(function(){
+    $(".location").css("display","none");
+    $("#shed-cafe").css("display","inline-block");
+});
+
+$("#button-h").click(function(){
+    $(".location").css("display","none");
+    $("#shed-cafe").css("display","inline-block");
+});
+
+
+$("#button-i").click(function(){
+    $(".location").css("display","none");
+    $("#shed-cafe").css("display","inline-block");
+});
+
+$("#button-j").click(function(){
+    $(".location").css("display","none");
+    $("#shed-cafe").css("display","inline-block");
+});
+
+$("#button-k").click(function(){
+    $(".location").css("display","none");
+    $("#shed-cafe").css("display","inline-block");
+});
+
+$("#button-l").click(function(){
+    $(".location").css("display","none");
+    $("#shed-cafe").css("display","inline-block");
+});
+
+
