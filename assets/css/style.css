@@ -384,7 +384,7 @@ footer {
 /* ================================== MAPS SECTION STYLING ================================== */
 #maps-section {
     width:100%;
-    height: 1500px;
+    height: 1300px;
     overflow: hidden;
 }
 
@@ -462,11 +462,23 @@ footer {
     margin: 0 auto; 
 }
 
+#button-heading {
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#button-heading h3 {
+    font-size: 20px;
+    color: #B01200;
+    text-align: center;
+}
+
+
 #button-container {
     height: 50px;
-    width: 700px;
+    width: 650px;
     margin: 0 auto;
-    background-color: lightgoldenrodyellow;
     margin-top: 20px;
 }
 
@@ -474,6 +486,15 @@ footer {
     height: 40px;
     width: 50px;
     display: inline-block;
+    color:white;
+    background-color: #B01200;
+    border-radius: 5px;
+}
+
+.buttons:hover {
+    color:#B01200;
+    background-color: white;
+    border: 1px #B01200 solid;
 }
 
 .location {
