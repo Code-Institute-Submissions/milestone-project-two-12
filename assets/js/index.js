@@ -226,38 +226,38 @@ $("#button-e").click(function(){
 
 $("#button-f").click(function(){
     $(".location").css("display","none");
-    $("#shed-cafe").css("display","inline-block");
+    $("#views").css("display","inline-block");
 });
 
 $("#button-g").click(function(){
     $(".location").css("display","none");
-    $("#shed-cafe").css("display","inline-block");
+    $("#portofino").css("display","inline-block");
 });
 
 $("#button-h").click(function(){
     $(".location").css("display","none");
-    $("#shed-cafe").css("display","inline-block");
+    $("#jaks").css("display","inline-block");
 });
 
 
 $("#button-i").click(function(){
     $(".location").css("display","none");
-    $("#shed-cafe").css("display","inline-block");
+    $("#castle-rushen").css("display","inline-block");
 });
 
 $("#button-j").click(function(){
     $(".location").css("display","none");
-    $("#shed-cafe").css("display","inline-block");
+    $("#peel-castle").css("display","inline-block");
 });
 
 $("#button-k").click(function(){
     $(".location").css("display","none");
-    $("#shed-cafe").css("display","inline-block");
+    $("#laxey-wheel").css("display","inline-block");
 });
 
 $("#button-l").click(function(){
     $(".location").css("display","none");
-    $("#shed-cafe").css("display","inline-block");
+    $("#calf-of-man").css("display","inline-block");
 });
 
 
