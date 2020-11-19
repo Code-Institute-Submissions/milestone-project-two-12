@@ -198,6 +198,18 @@ $("#basic-info-inner").mouseleave(function(){
     $("#workpermit-container").removeClass("rotate");
 });
 
+/* Did you know section, guess the year IoM gave women the right to vote */
+function wawa() {
+    var guess = document.getElementById('input_id').value;
+        if(value === 1881) {
+        document.getElementById('guess-feedback').innerHTML = "Yes, that's correct.";
+    }
+    else {
+        document.getElementById('guess-feedback').innerHTML = "Nowhere near!";
+    }
+}
+
+
 /* Location info */
 $("#button-a").click(function(){
     $(".location").css("display","none");
@@ -259,5 +271,8 @@ $("#button-l").click(function(){
     $(".location").css("display","none");
     $("#calf-of-man").css("display","inline-block");
 });
+
+
+
 
 

@@ -373,13 +373,72 @@ footer {
     transform: rotateY(180deg);
 }
 
-/* ================================== FACTS SECTION STYLING ================================== */
+/* ================================== QUICK FACTS SECTION STYLING ================================== */
 #facts-section {
     width:100%;
-    height: 500px;
+    height: 1000px;
     overflow: hidden;
-    border: 1px solid green; /* Remove later */
 }
+
+#facts-container {
+    width: 100%;
+    height: 100%;
+}
+
+#facts-top {
+    width: 1100px;
+    display: block;
+    background-color: lightcyan;
+    margin: 0 auto;
+}
+
+.fact-box {
+    height: 250px;
+    width: 350px;
+    border: 1px black solid;
+    display: inline-block; 
+}
+
+#facts-bottom {
+    width: 100%;
+    display: block;
+    background-color: lightyellow;
+    position: relative;
+}
+
+#facts-bottom h2 {
+    font-size: 20px;
+    color: #B01200;
+}
+
+#fact-4 {
+    height: 500px;
+    width: 500px;
+    background-color: lightskyblue;
+    margin: 0 auto;
+    position: relative;
+}
+
+#lydia-becker {
+    width: 200px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#fact-4 form {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #B01200;
+}
+
+#guess-feedback {
+    color: black;
+}
+
+
 
 /* ================================== MAPS SECTION STYLING ================================== */
 #maps-section {
