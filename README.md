@@ -55,3 +55,38 @@ Imagery
 ### Features left to implement
 
 - A picture slideshow which automatically cycles through pictures of the island
+
+# Technologies Used
+
+### Languages Used
+
+- HTML5
+- CSS3
+- Javascript
+- JQuery
+
+### Frameworks, Libraries and Programs Used
+
+- Google Fonts:
+
+Google fonts were used on all pages on my website. I imported two fonts "Permanent Marker" which was used website heading and "Roboto" which was used for paragraphs and all the other headings.
+
+- Font Awesome:
+
+Font awesome was used throughout my website to add icons to various headings to make them stand out more and look different from one and other.
+
+- Git
+
+Git was used for version control (using the Gitpod terminal)
+
+- Github
+
+Github was used to store the project
+
+- Balsamiq
+
+Was used to create my wireframes for the project
+
+- Jasmine Testing
+
+Jasmine testing was used on the facts section *UPDATE* 
