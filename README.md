@@ -26,3 +26,21 @@ The website aims to provide summary information to potential tourists before the
 #### Site Owner Goals
 
 - As the site owner I want to help attract more visitors to island
+
+# Design
+
+Colour Scheme
+
+- The main colours used for website was red (#b01200) and white. This was because Manx flag is mainly red and white text stands out well on the slightly dark red background.
+
+Typography
+
+- For the heading at the top of the page I used Permanent Marker. I used it as it is informal but striking. For the other headings and text I used Roboto. I liked the look of it so thought I would use it throughout the website.
+
+Imagery
+
+- The images used were vital to the UX as they tell the user what the website was about without having to read through. As the website is focused on the Isle of Man I made sure to use plenty of images of the island. I could describe the island in great detail but pictures are much more powerful. I used one of my own pictures in the welcome section as I always believe the first thing a user should come across on a website is a striking picture to grab their attention.
+
+ Wireframes
+
+ - The Wireframes for the website are available to view in the repository
