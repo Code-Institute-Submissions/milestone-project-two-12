@@ -5,4 +5,24 @@ The website aims to provide summary information to potential tourists before the
 
 [Click here to view the live website](    )
 
+# User Experience
+## User stories
+#### External Users 
 
+- Potential tourists visiting the island
+- People looking to move to the island
+
+#### External User Goals
+
+- Tourists
+    - As a tourist, I want to know the best places to visit
+    - As a tourist, I want to be able to find my way round the island
+    - As a tourist, I want to know the important information about the island
+
+- People moving to the island
+    - As someone potentially moving to the island,  I want to know any restrictions on moving to the island
+    - As someone potentially moving to the island, I want to know the important information about the island
+
+#### Site Owner Goals
+
+- As the site owner I want to help attract more visitors to island
