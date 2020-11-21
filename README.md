@@ -44,3 +44,14 @@ Imagery
  Wireframes
 
  - The Wireframes for the website are available to view in the repository
+
+### Existing Features
+- Flip cards in the basic info section to give users bitsize information about the island
+- Form on the contact us page which allows users to submit feedback on the website
+- The website is responsive and works on all devices
+- Google Maps API with markers to show the top things to do and see on the island
+- Links for all the websites or Facebook pages of the top things to do/see on the island
+
+### Features left to implement
+
+- A picture slideshow which automatically cycles through pictures of the island
