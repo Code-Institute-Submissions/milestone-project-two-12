@@ -198,47 +198,115 @@ $("#basic-info-inner").mouseleave(function(){
     $("#workpermit-container").removeClass("rotate");
 });
 
+/* Fading the background n the facts sections */
+$("#facts-bottom").mouseenter(function(){
+    $("#niarbyl").fadeTo(1000, 0.3);
+});
+
+$("#facts-bottom").mouseleave(function(){
+    $("#niarbyl").fadeTo(1000, 0.8);
+});
+
 /* Did you know section, guess the year IoM gave women the right to vote */
 function guess() {
     var value = document.getElementById("form-1");
     var year = "";
-    
+
+    $("#instructions").css("display","none");
+    $("#answer-text").css("display","none");
+
     var i; /* Used code from W3Schools to get this function working (https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_elements) */
     for (i = 0; i < value.length ;i++) {
         year += value.elements[i].value;
         
-        if(year === "") {
+        if(year == 1881) {
+            document.getElementById("guess-output").innerHTML = "That's correct.";
+        }
+
+        else if(year < 1 && year > -1) {
             document.getElementById("guess-output").innerHTML = "Come on, have a guess!";
         }
 
-        if(year === "1881") {
-            document.getElementById("guess-output").innerHTML = "Yes, that's correct.";
+        else if(year > 2020) {
+            document.getElementById("guess-output").innerHTML = "Hint: It's already happened!";
         }
 
-         else if(year > 2020) {
-            document.getElementById("guess-output").innerHTML = "Don't be daft!";
+        else if(year > 2100) {
+            document.getElementById("guess-output").innerHTML = "Now you are being silly";
         }
-        
-        else if(year < 1800 || year > 1960) {
-            document.getElementById("guess-output").innerHTML = "Nowhere near!";
+
+        else if(year < 0 ) {
+            document.getElementById("guess-output").innerHTML = "Can't have a negative year!";
         }
-        
-        else if(year - 1881 < 10 && year - 1881 > -10 ) {
-            document.getElementById("guess-output").innerHTML = "So close!";
+
+        else if(year - 1881 < 2 && year - 1881 > -2 ) {
+            document.getElementById("guess-output").innerHTML = "So close! You're within one year";
+        }
+
+        else if(year - 1881 < 3 && year - 1881 > -3 ) {
+            document.getElementById("guess-output").innerHTML = "Almost! You're within two years";
+        }
+
+        else if(year - 1881 < 4 && year - 1881 > -4 ) {
+            document.getElementById("guess-output").innerHTML = "Good guess! You're within three years";
+        }
+
+        else if(year - 1881 < 5 && year - 1881 > -5 ) {
+            document.getElementById("guess-output").innerHTML = "Good guess! You're within four years";
+        }
+
+        else if(year - 1881 < 6 && year - 1881 > -6 ) {
+            document.getElementById("guess-output").innerHTML = "Almost! You're within five years";
+        }
+
+        else if(year - 1881 < 11 && year - 1881 > -11 ) {
+            document.getElementById("guess-output").innerHTML = "You're within ten years";
+        }
+
+        else if(year - 1881 < 21 && year - 1881 > -21 ) {
+            document.getElementById("guess-output").innerHTML = "You're within twenty years";
+        }
+
+        else if(year - 1881 < 31 && year - 1881 > -31 ) {
+            document.getElementById("guess-output").innerHTML = "You're within thirty years";
+        }
+
+        else if(year - 1881 < 41 && year - 1881 > -41 ) {
+            document.getElementById("guess-output").innerHTML = "You're within fourty years";
+        }
+
+        else if(year - 1881 < 51 && year - 1881 > -51 ) {
+            document.getElementById("guess-output").innerHTML = "You're within fifty years";
+        }
+
+        else if(year < 1832 ) {
+            document.getElementById("guess-output").innerHTML = "Much later. Try again";
+        }
+
+        else if(year > 1930) {
+            document.getElementById("guess-output").innerHTML = "Much earlier. Try again";
+        }
+
+        else {
+            document.getElementById("guess-output").innerHTML = "Please enter a valid year";
         }
     }
 }
 /* Reveal Answer */
 $("#answer").click(function(){
     $("#form-1-year").css("display","none");
+    $("#instructions").css("display","none");
     $("#giveUp").css("display","block");
+    $("#answer-text").css("display","block");
     document.getElementById("guess-output").innerHTML = "";  
 });
 
 /* Reset the question so they can guess again */
 $("#reset").click(function(){
     $("#giveUp").css("display","none");
+    $("#instructions").css("display","block");
     $("#form-1-year").css("display","block");
+    $("#answer-text").css("display","none");
     document.getElementById("guess-output").innerHTML = "";    
 });
 

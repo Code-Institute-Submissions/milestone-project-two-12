@@ -418,7 +418,7 @@ footer {
     height: 750px;
     display: block;
     margin: 0 auto;
-    background-color: white;
+    background-color: #B01200;
     position: relative;
     border: #B01200 2px solid;
     border-radius: 5px;
@@ -428,7 +428,7 @@ footer {
 
 #facts-bottom h2 {
     font-size: 30px;
-    color: #B01200;
+    color: white;
     margin-top: 10px;
 }
 
@@ -441,7 +441,7 @@ footer {
 }
 
 #fact-4 p {
-    color: #B01200;
+    color: white;
 }
 
 #lydia-becker {
@@ -451,6 +451,7 @@ footer {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 #form-1, #giveUp {
@@ -459,15 +460,18 @@ footer {
     display: block;
     margin: 0 auto;
     border: 1px solid #B01200;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#giveUp {
+#giveUp, #answer-text {
     display: none;
 }
 
-#giveUp p {
-    font-size: 50px;
+#giveUp p, #instructions, #answer-text {
+    font-size: 40px;
     text-align: center;
+    color: white;
 }
 
 #form-1-year {
@@ -476,33 +480,38 @@ footer {
     font-size: 50px;
     text-align: center;
     border-radius: 5px;
+    color: #B01200;
 }
 
 #guess, #answer, #reset {
-    background-color: white;
-    color: #B01200;
-    font-size: 20px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #B01200;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-#guess:hover, #answer:hover, #reset:hover {
     background-color: #B01200;
     color: white;
     font-size: 20px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #B01200;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#guess:hover, #answer:hover, #reset:hover {
+    background-color: white;
+    color: #B01200;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
     border-radius: 5px;
     margin-top: 20px;
 }
 
 #guess-output {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
+}
+
+center {
+    margin: 10px;
 }
 
 /* ================================== MAPS SECTION STYLING ================================== */
