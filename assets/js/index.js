@@ -199,13 +199,33 @@ $("#basic-info-inner").mouseleave(function(){
 });
 
 /* Did you know section, guess the year IoM gave women the right to vote */
-function wawa() {
-    var guess = document.getElementById('input_id').value;
-        if(value === 1881) {
-        document.getElementById('guess-feedback').innerHTML = "Yes, that's correct.";
-    }
-    else {
-        document.getElementById('guess-feedback').innerHTML = "Nowhere near!";
+function guess() {
+    var value = document.getElementById("form-1");
+    var year = "";
+    
+    var i; /* Used code from W3Schools to get this function working (https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_elements) */
+    for (i = 0; i < value.length ;i++) {
+        year += value.elements[i].value;
+        
+        if(year === "") {
+            document.getElementById("guess-output").innerHTML = "Come on, have a guess!";
+        }
+
+        if(year === "1881") {
+            document.getElementById("guess-output").innerHTML = "Yes, that's correct.";
+        }
+
+         else if(year > 2020) {
+            document.getElementById("guess-output").innerHTML = "Don't be daft!";
+        }
+        
+        else if(year < 1800 || year > 1960) {
+            document.getElementById("guess-output").innerHTML = "Nowhere near!";
+        }
+        
+        else if(year - 1881 < 10 && year - 1881 > -10 ) {
+            document.getElementById("guess-output").innerHTML = "So close!";
+        }
     }
 }
 
