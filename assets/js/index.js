@@ -228,6 +228,20 @@ function guess() {
         }
     }
 }
+/* Reveal Answer */
+$("#answer").click(function(){
+    $("#form-1-year").css("display","none");
+    $("#giveUp").css("display","block");
+    document.getElementById("guess-output").innerHTML = "";  
+});
+
+/* Reset the question so they can guess again */
+$("#reset").click(function(){
+    $("#giveUp").css("display","none");
+    $("#form-1-year").css("display","block");
+    document.getElementById("guess-output").innerHTML = "";    
+});
+
 
 
 /* Location info */
