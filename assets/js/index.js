@@ -208,12 +208,14 @@ $("#facts-bottom").mouseleave(function(){
 });
 
 /* Did you know section, guess the year IoM gave women the right to vote */
-function guess() {
-    var value = document.getElementById("form-1");
-    var year = "";
-
+$("#guess").click(function() {
     $("#instructions").css("display","none");
     $("#answer-text").css("display","none");
+    $("#giveUp").css("display","none");
+    $("#form-1-year").css("display","block");
+
+    var value = document.getElementById("form-1");
+    var year = "";
 
     var i; /* Used code from W3Schools to get this function working (https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_elements) */
     for (i = 0; i < value.length ;i++) {
@@ -291,7 +293,8 @@ function guess() {
             document.getElementById("guess-output").innerHTML = "Please enter a valid year";
         }
     }
-}
+})
+
 /* Reveal Answer */
 $("#answer").click(function(){
     $("#form-1-year").css("display","none");
@@ -307,7 +310,8 @@ $("#reset").click(function(){
     $("#instructions").css("display","block");
     $("#form-1-year").css("display","block");
     $("#answer-text").css("display","none");
-    document.getElementById("guess-output").innerHTML = "";    
+    document.getElementById("guess-output").innerHTML = "";
+    document.getElementById("form-1").reset(); 
 });
 
 

@@ -376,7 +376,7 @@ footer {
 /* ================================== QUICK FACTS SECTION STYLING ================================== */
 #facts-section {
     width:100%;
-    height: 1200px;
+    height: 1100px;
     overflow: hidden;
 }
 
@@ -394,7 +394,7 @@ footer {
     top: 0px;
 }
 
-#facts-header, #facts-top, #facts-bottom {
+#facts-header, #facts-bottom {
     z-index: 2;
     position: relative;
 }
@@ -404,13 +404,20 @@ footer {
     display: block;
     background-color: lightcyan;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .fact-box {
-    height: 250px;
-    width: 350px;
-    border: 1px black solid;
+    height: 350px;
+    width: 300px;
     display: inline-block; 
+    margin: 10px;
+    padding: 10px;
+    background-color: #B01200;
+    position: relative;
+    border: #B01200 2px solid;
+    border-radius: 5px;
+    box-shadow: 3px 7px 10px;
 }
 
 #facts-bottom {
