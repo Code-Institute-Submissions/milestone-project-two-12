@@ -198,7 +198,7 @@ $("#basic-info-inner").mouseleave(function(){
     $("#workpermit-container").removeClass("rotate");
 });
 
-/* Fading the background n the facts sections */
+/* Fading the background on the facts section */
 $("#facts-bottom").mouseenter(function(){
     $("#niarbyl").fadeTo(1000, 0.3);
 });
@@ -378,7 +378,14 @@ $("#button-l").click(function(){
     $("#calf-of-man").css("display","inline-block");
 });
 
+/* Fading the background on the map section */
+$("#map-container").mouseenter(function(){
+    $("#calf-of-man-2").fadeTo(1000, 0.3);
+});
 
+$("#map-container").mouseleave(function(){
+    $("#calf-of-man-2").fadeTo(1000, 0.8);
+});
 
 
 

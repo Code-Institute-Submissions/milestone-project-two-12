@@ -529,17 +529,26 @@ center {
 }
 
 #map-container {
+    width: 100%;
     height:100%;
+    position: relative;
+    z-index: 2;
 }
 
 #map-container h1 {
     text-align: center;
     font-size: 50px;
 }
+#map-header {
+    position: relative;
+    z-index: 2;
+}
 
 #map-intro {
     height: 20px;
     width: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 #map-intro h3 {
@@ -557,6 +566,8 @@ center {
     border: #B01200 10px solid;
     border-radius: 5px;
     box-shadow: 2px 5px 8px;
+    position: relative;
+    z-index: 2
 }
 
 #activities-container {
@@ -618,6 +629,8 @@ center {
     height: 30px;
     width: 100%;
     margin-top: 20px;
+    position: relative;
+    z-index: 2;
 }
 
 #button-heading h3 {
@@ -647,6 +660,11 @@ center {
     color:#B01200;
     background-color: white;
     border: 1px #B01200 solid;
+}
+
+#location-details-container {
+    position: relative;
+    z-index: 2;
 }
 
 .location {
@@ -746,6 +764,15 @@ center {
     text-align: center;
     font-size: 15px;
 }
+
+#calf-of-man-2 {
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+}
+
 
 /* ================================== USEFUL LINKS SECTION STYLING ================================== */
 
