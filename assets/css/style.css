@@ -233,6 +233,10 @@ footer {
     padding: 0px;
 }
 
+#welcome-text p {
+    font-size: 20px;
+}
+
 #welcome-text {
     display: none;
     padding: 50px;
