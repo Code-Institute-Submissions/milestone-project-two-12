@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.css" integrity="sha512-XKXP02aeSNI5HsDB3+4MM0tSDXJTBFZpt99xL7PvMz3+A3aRy0F0Ne/CATK+Z72ckE/4Ev9OiosWQr5LtU284Q==" crossorigin="anonymous" />
     <title>Isle of Man - All you need to know!</title>
 </head>
 <body>   
@@ -508,10 +509,56 @@
     </section>
 
     <div class="divider"></div> 
-    
+    <section id="contact">
+        <div id="contact-container"> 
+            <div id="contact-header" class="section-headings">
+                <h2>Contact Us</h2>
+            </div>                      
+            <div id="contact-form-container">       
+                <p>We are always looking for feedback on our website and how we can approve for you. If you have any issues using our navigating our website, or you would just like to leave some general feedback, just fill out the below form and we will get back to you as soon as possible</p>
+           
+                <form id="contact-form" action="feedback.html" method="get"> 
+                    <label for="form-summary">Your issue/feedback</label><br>
+                    <input type="text" class="form-box" id="form-summary" name="form-summary"  placeholder="Summarise your feedback" required><br>
+                    
+                    <label for="form-description">Description</label><br>
+                    <input type="text" class="form-box" id="form-description" name="form-description" placeholder="Describe your feedback in detail" required><br>
+                    
+                    <label for="form-device">PC/laptop, Tablet or Mobile?</label><br>
+                    <select name="form-device" id="form-device">
+                        <option>Please select your device type</option>
+                        <option>PC/Laptop</option>
+                        <option>Tablet</option>
+                        <option>Phone</option>
+                    </select><br>
+                    
+
+                    <label for="form-browser">Which browser are you using?</label><br>
+                    <select name="form-browser" id="form-browser">  
+                        <option>Please select your browser type</option>
+                        <option>Microsoft Edge</option>
+                        <option>Safari</option>
+                        <option>Firefox</option>
+                        <option>Google Chrome</option>
+                        <option>Internet Explorer</option>
+                    </select><br>
+                    
+                    <label for="form-device-info">Device information (type & operating system)</label><br>
+                    <input type="text" class="form-box" id="form-device-info" placeholder="e.g. iPhone 7 & iOS 10"><br>
+
+                    <label for="email-address">Email</label><br>
+                    <input type="email" name="email-address" class="form-box" id="email-address" placeholder="Please input your email address" required><br>
+                    
+                    <br>
+                    <input type="submit" id="submit-button" value="Submit">
+                 
+                </form>
+            </div>
+        </div>
+    </section>
     <footer>
         <div id="social-media">
-            <div id="social-media-heading">
+            <div id="social-media-heading">     
                 <h2>We're on social media too!</h2>
             </div>
             <div id="social-media-links">
@@ -532,7 +579,7 @@
                         <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
                     </li> 
                 </ul>
-            </div>
+            </div> 
         </div>      
     </footer>
     
@@ -540,5 +587,9 @@
     <script src="assets/js/index.js"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>               
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaN0v6TQODTpGRZQ-ZZQimMxZg_bADKvg&callback=initMap"></script>           
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.js" integrity="sha512-dqL4nYnbiMiNNy/V2zRK55QXSRVyu26KCuGoL8Zf5lDfKRRf8pBFW8RXe8at36QlB8s8bnOjKP6b5YTalHO6wQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine-html.js" integrity="sha512-bqig44hBpNuvBzxsqbHiqwRximGm4UfJAvOeNQHjB7++0D2u/3bcw4ZwmVsqrooii2UJ91oDI/6aANdp3BwcQQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/boot.js" integrity="sha512-igPP1Xd0hsvXVZGyfIYeUD779NLEA1Sj/5ts2C/e/22zeUqR6ehA7M/nNLuONalznkHQkGPBESNwzGpwBQD60g==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/calcSpec.js"></script>
 </body>
-</html>
+</html> 

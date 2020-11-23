@@ -208,6 +208,7 @@ $("#facts-bottom").mouseleave(function(){
 });
 
 /* Did you know section, guess the year IoM gave women the right to vote */
+
 $("#guess").click(function() {
     $("#instructions").css("display","none");
     $("#answer-text").css("display","none");
@@ -388,4 +389,6 @@ $("#map-container").mouseleave(function(){
 });
 
 
-
+function guessYear(){
+    return 10;
+}
