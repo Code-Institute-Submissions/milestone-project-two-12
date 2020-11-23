@@ -793,9 +793,19 @@ center {
 #contact-form-container {
     width: 900px;
     margin: 0 auto;
-    border: 1px black solid;
+    border: 1px #B01200 solid;
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+    background-color: #B01200;
+    border-radius: 5px;
 }
 
+#contact-header {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
 #contact-form-container p {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -869,6 +879,13 @@ center {
     border-radius: 5px;
 }
 
+#dragon-rock {
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+}
 
 /* ================================== USEFUL LINKS SECTION STYLING ================================== */
 
