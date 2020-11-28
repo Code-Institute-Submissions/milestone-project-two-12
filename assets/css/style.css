@@ -39,12 +39,7 @@ body {
     display: inline;
 }
 
-.divider {
-    width: 100%;
-    height: 10px;
-    background-color: #B01200;
-    overflow: hidden;
-}
+
 
 /* ========================================== HEADER STYLING ========================================== */
 header {
@@ -202,7 +197,30 @@ footer {
     padding-top: 10px;
 }
 
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    overflow: hidden;
+}
 
+.minimize {
+    height: 50px;
+    width: 40px;
+    float: left;
+    color: white;
+    margin-left: 30px;
+}
+
+.minimize i {
+    font-size: 50px;
+    background-color: #B01200;
+    text-decoration: none;
+}
+
+.minimize-section {
+    height: 50px;
+}
 /* ================================== WELCOME SECTION STYLING ================================== */
 
 #welcome-section {

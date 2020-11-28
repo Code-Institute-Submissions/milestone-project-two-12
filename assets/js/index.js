@@ -149,6 +149,14 @@ $("#welcome-box").mouseleave(function(){
     $("#bradda-head").fadeTo(1000, 0.8);
 });
 
+/* Hide/unhide the basic info section */
+$("#basic-info-min").click(function(){
+    $("#basic-info-inner").slideToggle(1000);
+    $("#basic-info-section").toggleClass("minimize-section");
+});
+
+
+
 /* Flips the cards in the basic information section*/
 $("#capital").click(function(){
     $("#capital-container").toggleClass("rotate");
