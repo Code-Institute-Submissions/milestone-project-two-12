@@ -1,7 +1,12 @@
-describe("Fact Section Question",function(){
-    describe("Guess The Year",function(){
-        it("should return 10", function() {
-            expect(guessYear()).toBe(11);
-        })
+describe("Fact Section Guess Function",function(){
+
+    beforeEach(function() {
+        guessOutput = new guess();
+    });
+
+    describe("Provides feedback to user",function(){
+        it("The function should exist", function() {
+            expect(guess).toBeDefined();
+        });
     })
 })

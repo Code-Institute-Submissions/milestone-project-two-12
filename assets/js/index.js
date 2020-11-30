@@ -184,6 +184,8 @@ $("#reset").click(function(){
 });
 
 
+
+
 /* ================================ Things to do section ================================ */
  /* Map */
 function initMap(){
