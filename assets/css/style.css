@@ -398,7 +398,7 @@ footer {
 /* ================================== QUICK FACTS SECTION STYLING ================================== */
 #facts-section {
     width:100%;
-    height: 1100px;
+    height: 1000px;
     overflow: hidden;
 }
 
@@ -409,7 +409,7 @@ footer {
 }
 
 #niarbyl {
-    height: 100%;
+    width: 100%;
     opacity: 0.8;
     position: absolute;
     z-index: 1;
@@ -461,7 +461,7 @@ footer {
     margin-top: 10px;
 }
 
-#fact-4 {
+#fact {
     height: 600px;
     width: 600px;
     position: relative;
@@ -469,7 +469,7 @@ footer {
     padding: 20px;
 }
 
-#fact-4 p {
+#fact p {
     color: white;
 }
 
@@ -546,7 +546,7 @@ center {
 /* ================================== MAPS SECTION STYLING ================================== */
 #maps-section {
     width:100%;
-    height: 1400px;
+    height: 2000px;
     overflow: hidden;
 }
 
@@ -919,7 +919,7 @@ center {
 }
 
 #dragon-rock {
-    height: 100%;
+    width: 100%;
     opacity: 0.8;
     position: absolute;
     z-index: 1;

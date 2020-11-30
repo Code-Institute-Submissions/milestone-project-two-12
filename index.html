@@ -233,19 +233,19 @@
 
     <section id="facts-section">
         <div id="facts-container">           
-            <div id="facts-header" class="section-headings">
+            <div id="facts-header" class="section-headings">  
                 <h2>Did you know...</h2>
             </div>
             <div id="facts-bottom">     
                 <h2>Isle of Woman </h2>
-                <div id="fact-4"> 
+                <div id="fact">  
                     <p>Did you know that the Isle of Man was the first place in Britain to give women the right to vote? After Lydia Becker (leader of the suffragette movement in Manchester) visited the island, she rallied and inspired the women of the Isle of Man to stand up and fight for their right to vote. This let to the Tynwald debate and the eventual change in legislation granting women the right to vote. </p>
                     <img src="assets/images/lydia-becker.jpg" alt="Lydia Becker" id="lydia-becker">
                     <p>Have a guess at what year you think women were allowed to vote in the Isle of Man</p>
                     <form id="form-1">                     
                         <input type="number" placeholder="yyyy" min="1" max="3000" id="form-1-year">           
                         <div id="giveUp"> 
-                            <p>1881</p>   
+                            <p>1881</p>               
                         </div>                      
                     </form>
                     <p id="instructions">Enter a year</p>   
@@ -253,7 +253,7 @@
                     <p id="guess-output"></p>  
                     
                     <center>
-                        <button id="guess">Guess</button> 
+                        <button id="guess" onclick="guess()">Guess</button>     
                         <button id="answer">Give up</button>
                         <button id="reset">Reset</button>      
                     </center>      
@@ -279,8 +279,8 @@
             <div id="button-heading"> 
                 <h3>Click on the buttons below to find out more information</h3>
             </div> 
-            <div id="location-details-container">
-                <div id="button-container">      
+            <div id="location-details-container">    
+                <div id="button-container">        
                     <button id="button-a" class="buttons">A</button> 
                     <button id="button-b" class="buttons">B</button>    
                     <button id="button-c" class="buttons">C</button>
@@ -296,7 +296,7 @@
                 </div>
                 <div id="location-details-inner">     
                     <div id="sound-cafe" class="location"> 
-                        <div id="sound-cafe-inner" class="location-inner">
+                        <div id="sound-cafe-inner" class="location-inner"> 
                             <div class="location-header"> 
                                 <h2>The Cafe At The Sound</h2>   
                             </div>
@@ -328,7 +328,7 @@
                         </div>
 
                         <div class="website-link">      
-                            <a href="https://www.facebook.com/theshedlaxey/" target="_blank">Find out more</a>           
+                            <a href="https://www.facebook.com/theshedlaxey/" target="_blank">Find out more</a>         
                         </div>                       
                     </div>
                     <div id="tea-junction" class="location">      
@@ -593,4 +593,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/boot.js" integrity="sha512-igPP1Xd0hsvXVZGyfIYeUD779NLEA1Sj/5ts2C/e/22zeUqR6ehA7M/nNLuONalznkHQkGPBESNwzGpwBQD60g==" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/calcSpec.js"></script>
 </body>
-</html> 
+</html>  
