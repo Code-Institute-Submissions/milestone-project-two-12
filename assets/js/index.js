@@ -71,7 +71,10 @@ $("#facts-bottom").mouseleave(function(){
     $("#niarbyl").fadeTo(1000, 0.8);
 });
 
-/* ================================ Did you know section, guess the year IoM gave women the right to vote ================================ */
+/* ================================ Did you know section ================================ */
+
+/* guessQuestionOne function */
+
 guessQuestionOne = function(year) {
     $("#guess1").click(function() {
         $("#instructions1").css("display","none");
@@ -178,6 +181,56 @@ $("#reset1").click(function(){
     $("#answer-text1").css("display","none");
     document.getElementById("guess-output1").innerHTML = "";
     document.getElementById("form-1").reset(); 
+});
+
+/* guessQuestionTwo function */
+
+guessQuestionTwo = function(records) {
+    $("#guess2").click(function() {
+        $("#instructions2").css("display","none");
+        $("#answer-text2").css("display","none");
+        $("#giveUp2").css("display","none");
+        $("#form-2-year").css("display","block");
+        
+        var value = document.getElementById("form-2");
+        var records = "";
+
+        var i; /* Used code from W3Schools to get this function working (https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_elements) */
+        for (i = 0; i < value.length ;i++) {
+            records += value.elements[i].value;
+            
+            if(records == 120) {
+                document.getElementById("guess-output2").innerHTML = "That's correct."
+            }
+
+            else if(records < 1 && records > -1) {
+                document.getElementById("guess-output2").innerHTML = "Come on, have a guess!";
+            }
+
+            else {
+                document.getElementById("guess-output2").innerHTML = "Please enter a valid number";
+            }
+        }
+    })
+}
+
+/* Reveal Answer */
+$("#answer2").click(function(){
+    $("#form-2-year").css("display","none");
+    $("#instructions2").css("display","none");
+    $("#giveUp2").css("display","block");
+    $("#answer-text2").css("display","block");
+    document.getElementById("guess-output2").innerHTML = "";  
+});
+
+/* Reset the question so they can guess again */
+$("#reset2").click(function(){
+    $("#giveUp2").css("display","none");
+    $("#instructions2").css("display","block");
+    $("#form-2-year").css("display","block");
+    $("#answer-text2").css("display","none");
+    document.getElementById("guess-output2").innerHTML = "";
+    document.getElementById("form-2").reset(); 
 });
 
 
