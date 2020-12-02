@@ -218,7 +218,7 @@ guessQuestionTwo = function(records) {
             else if(records < 100) {
                 document.getElementById("guess-output2").innerHTML = "Too low. Try again";
             }
-
+            
             else if(records < 141 && records > 99) {
                 document.getElementById("guess-output2").innerHTML = "Not too far away";
             }
@@ -249,7 +249,49 @@ $("#reset2").click(function(){
     document.getElementById("form-2").reset(); 
 });
 
+/* Leg button */
+$("#leg").click(function(){
+    $("#instructions3").css("display","none");
+    document.getElementById("guess-output3").innerHTML = "Nope, try again!";  
+});
 
+/* tail button */
+$("#tail").click(function(){
+    $("#instructions3").css("display","none");
+    document.getElementById("guess-output3").innerHTML = "Correct!";  
+});
+
+/* ears button */
+$("#ears").click(function(){
+    $("#instructions3").css("display","none");
+    document.getElementById("guess-output3").innerHTML = "Try again!";  
+});
+        
+
+/* Reveal Answer */
+$("#answer3").click(function(){
+    $("#form-3-year").css("display","none");
+    $("#instructions3").css("display","none");
+    $("#leg").css("display","none");
+    $("#tail").css("display","none");
+    $("#ears").css("display","none");
+    $("#giveUp3").css("display","block");
+    $("#answer-text3").css("display","block");
+    document.getElementById("guess-output3").innerHTML = "";  
+});
+
+/* Reset the question so they can guess again */
+$("#reset3").click(function(){
+    $("#giveUp3").css("display","none");
+    $("#instructions3").css("display","block");
+    $("#form-3-year").css("display","block");
+    $("#answer-text3").css("display","none");
+    $("#leg").css("display","inline-block");
+    $("#tail").css("display","inline-block");
+    $("#ears").css("display","inline-block");
+    document.getElementById("guess-output3").innerHTML = "";
+    document.getElementById("form-3").reset(); 
+});
 
 
 /* ================================ Things to do section ================================ */

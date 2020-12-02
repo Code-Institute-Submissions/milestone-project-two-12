@@ -466,7 +466,7 @@ footer {
 }
 
 #fact-2 {
-
+    display: none;
 }
 
 #fact-3 {
@@ -489,7 +489,7 @@ footer {
     color: white;
 }
 
-#lydia-becker, #beegees {
+#lydia-becker, #beegees, #manxcat {
     width: 200px;
     position: relative;
     display: block;
@@ -509,12 +509,12 @@ footer {
     margin-bottom: 10px;
 }
 
-#giveUp1, #answer-text1, #giveUp2, #answer-text2 {
+#giveUp1, #answer-text1, #giveUp2, #answer-text2, #giveUp3, #answer-text3 {
     display: none;
 }
 
-#giveUp1 p, #instructions1, #answer-text1, #giveUp2 p, #instructions2, #answer-text2 {
-    font-size: 40px;
+#giveUp1 p, #instructions1, #answer-text1, #giveUp2 p, #instructions2, #answer-text2, #giveUp3 p, #instructions3, #answer-text3 {
+    font-size: 35px;
     text-align: center;
     color: white;
 }
@@ -528,7 +528,11 @@ footer {
     color: #B01200;
 }
 
-#guess1, #answer1, #reset1, #guess2, #answer2, #reset2 {
+#form-3-year {
+    width: 700px;
+}
+
+#guess1, #answer1, #reset1, #guess2, #answer2, #reset2, #answer3, #reset3, #leg, #tail, #ears {
     background-color: #B01200;
     color: white;
     font-size: 20px;
@@ -539,7 +543,11 @@ footer {
     margin-top: 20px;
 }
 
-#guess1:hover, #answer1:hover, #reset1:hover, #guess2:hover, #answer2:hover, #reset2:hover {
+#leg, #tail, #ears {
+    margin: 3px;
+}
+
+#guess1:hover, #answer1:hover, #reset1:hover, #guess2:hover, #answer2:hover, #reset2:hover, #answer3:hover, #reset3:hover, #leg:hover, #tail:hover, #ears:hover {
     background-color: white;
     color: #B01200;
     font-size: 20px;
@@ -550,9 +558,20 @@ footer {
     margin-top: 20px;
 }
 
-#guess-output1, #guess-output2 {
+#leg:hover, #tail:hover, #ears:hover {
+    margin: 3px;
+}
+
+#guess-output1, #guess-output2, #guess-output3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#leg-text p, #tail-text p, #ears-text p {
     font-size: 40px;
     text-align: center;
+    color: white;
+    display: none;
 }
 
 center {
