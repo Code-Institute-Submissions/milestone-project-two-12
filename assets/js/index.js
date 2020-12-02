@@ -261,8 +261,8 @@ $("#tail").click(function(){
     document.getElementById("guess-output3").innerHTML = "Correct!";  
 });
 
-/* ears button */
-$("#ears").click(function(){
+/* toes button */
+$("#toes").click(function(){
     $("#instructions3").css("display","none");
     document.getElementById("guess-output3").innerHTML = "Try again!";  
 });
@@ -274,7 +274,7 @@ $("#answer3").click(function(){
     $("#instructions3").css("display","none");
     $("#leg").css("display","none");
     $("#tail").css("display","none");
-    $("#ears").css("display","none");
+    $("#toes").css("display","none");
     $("#giveUp3").css("display","block");
     $("#answer-text3").css("display","block");
     document.getElementById("guess-output3").innerHTML = "";  
@@ -288,7 +288,7 @@ $("#reset3").click(function(){
     $("#answer-text3").css("display","none");
     $("#leg").css("display","inline-block");
     $("#tail").css("display","inline-block");
-    $("#ears").css("display","inline-block");
+    $("#toes").css("display","inline-block");
     document.getElementById("guess-output3").innerHTML = "";
     document.getElementById("form-3").reset(); 
 });

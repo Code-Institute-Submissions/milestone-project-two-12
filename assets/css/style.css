@@ -532,7 +532,7 @@ footer {
     width: 700px;
 }
 
-#guess1, #answer1, #reset1, #guess2, #answer2, #reset2, #answer3, #reset3, #leg, #tail, #ears {
+#guess1, #answer1, #reset1, #guess2, #answer2, #reset2, #answer3, #reset3, #leg, #tail, #toes {
     background-color: #B01200;
     color: white;
     font-size: 20px;
@@ -543,11 +543,11 @@ footer {
     margin-top: 20px;
 }
 
-#leg, #tail, #ears {
+#leg, #tail, #toes {
     margin: 3px;
 }
 
-#guess1:hover, #answer1:hover, #reset1:hover, #guess2:hover, #answer2:hover, #reset2:hover, #answer3:hover, #reset3:hover, #leg:hover, #tail:hover, #ears:hover {
+#guess1:hover, #answer1:hover, #reset1:hover, #guess2:hover, #answer2:hover, #reset2:hover, #answer3:hover, #reset3:hover, #leg:hover, #tail:hover, #toes:hover {
     background-color: white;
     color: #B01200;
     font-size: 20px;
@@ -558,7 +558,7 @@ footer {
     margin-top: 20px;
 }
 
-#leg:hover, #tail:hover, #ears:hover {
+#leg:hover, #tail:hover, #toes:hover {
     margin: 3px;
 }
 
@@ -567,11 +567,15 @@ footer {
     text-align: center;
 }
 
-#leg-text p, #tail-text p, #ears-text p {
+#leg-text p, #tail-text p, #toes-text p {
     font-size: 40px;
     text-align: center;
     color: white;
     display: none;
+}
+
+#answer-text3 {
+    font-size: 15px;
 }
 
 center {
