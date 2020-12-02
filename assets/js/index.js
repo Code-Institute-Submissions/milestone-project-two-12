@@ -73,6 +73,25 @@ $("#facts-bottom").mouseleave(function(){
 
 /* ================================ Did you know section ================================ */
 
+/* Question selector */
+ $("#question1").click(function() {
+    $("#fact-1").css("display","block");
+    $("#fact-2").css("display","none");
+    $("#fact-3").css("display","none");
+ });
+
+$("#question2").click(function() {
+    $("#fact-1").css("display","none");
+    $("#fact-2").css("display","block");
+    $("#fact-3").css("display","none");
+ });
+
+$("#question3").click(function() {
+    $("#fact-1").css("display","none");
+    $("#fact-2").css("display","none");
+    $("#fact-3").css("display","block");
+ });
+
 /* guessQuestionOne function */
 
 guessQuestionOne = function(year) {

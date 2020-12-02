@@ -398,7 +398,7 @@ footer {
 /* ================================== QUICK FACTS SECTION STYLING ================================== */
 #facts-section {
     width:100%;
-    height: 1000px;
+    height: 1100px;
     overflow: hidden;
 }
 
@@ -410,6 +410,7 @@ footer {
 
 #niarbyl {
     width: 100%;
+    height: 100%;
     opacity: 0.8;
     position: absolute;
     z-index: 1;
@@ -461,20 +462,12 @@ footer {
     margin-top: 10px;
 }
 
-#fact-1 {
-   display: none;
-}
-
 #fact-2 {
     display: none;
 }
 
 #fact-3 {
-    
-}
-
-#fact-4 {
-    
+    display: none;
 }
 
 .fact {
@@ -574,12 +567,41 @@ footer {
     display: none;
 }
 
-#answer-text3 {
-    font-size: 15px;
+#answer-text1, #answer-text2, #answer-text3 {
+    font-size: 20px;
 }
 
 center {
     margin: 10px;
+}
+#button-toggle {
+    height: 60px;
+    width:350px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #B01200;
+    margin-top: 30px;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 3px 7px 10px;
+}
+
+#question1, #question2, #question3 {
+    display: inline-block;
+    border: 1px white solid;
+    margin: 15px;
+    padding: 5px;
+    background-color: #B01200;
+    color: white;
+}
+
+#question1:hover, #question2:hover, #question3:hover {
+    display: inline-block;
+    border: 1px white solid;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+    color: #B01200;
 }
 
 /* ================================== MAPS SECTION STYLING ================================== */
