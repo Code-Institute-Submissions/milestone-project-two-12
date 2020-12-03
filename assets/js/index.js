@@ -328,7 +328,7 @@ $("#reset3").click(function(){
     $("#location-details-container").toggleClass("show-background");
 
 
- });
+});
 
 /* Map */
 function initMap(){ /* Got this code from Google Developer, Maps API Marker Clusters section https://developers.google.com/maps/documentation/javascript/marker-clustering */
@@ -442,6 +442,12 @@ $("#map-intro, #map, #button-heading, #location-details-container").mouseleave(f
 
 /* ================================ Contact section ================================ */
 /* Fading the background on the contact section  */
+/* View background image button */
+ $("#contact-button").click(function() {
+    $("#contact-form-container").toggleClass("show-background");
+});
+
+
 $("#contact-form-container").mouseenter(function(){
     $("#dragon-rock").fadeTo(1000, 0.3);
 });

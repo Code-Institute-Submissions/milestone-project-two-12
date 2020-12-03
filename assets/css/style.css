@@ -118,7 +118,7 @@ header {
 /* ========================================== FOOTER.HTML STYLING ========================================== */
 footer {
     width: 100%;
-    height: 200px;
+    height: 250px;
     overflow: hidden;
     background-color: #B01200;
 }
@@ -925,9 +925,33 @@ center {
 /* ================================== CONTACT SECTION STYLING ================================== */
 #contact {
     width: 100%;
-    height: 1000px;
+    height: 900px;
     overflow: hidden;
     position: relative;
+}
+
+#contact-button {
+    float: right;
+    position: relative;
+    border: 1px black solid;
+    margin: 15px;
+    padding: 5px;
+    background-color: #B01200;
+    color: white;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+#contact-button:hover {
+    float: right;
+    position: relative;
+    border: 1px black solid;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+    color: #B01200;
+    border-radius: 5px;
+    z-index: 2;
 }
 
 #contact-container {
@@ -937,6 +961,7 @@ center {
 
 #contact-form-container {
     width: 900px;
+    height: 600px;
     margin: 0 auto;
     border: 1px #B01200 solid;
     position: relative;
@@ -946,6 +971,7 @@ center {
     border-radius: 5px;
     padding: 20px;
     box-shadow: 3px 7px 10px;
+    overflow: scroll;
 }
 
 #contact-header {
