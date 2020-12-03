@@ -320,6 +320,16 @@ $("#reset3").click(function(){
 
 
 /* ================================ Things to do section ================================ */
+/* View background image button */
+ $("#map-button").click(function() {
+    $("#map-intro").toggleClass("show-background");
+    $("#map").toggleClass("show-background");
+    $("#button-heading").toggleClass("show-background");
+    $("#location-details-container").toggleClass("show-background");
+
+
+ });
+
 /* Map */
 function initMap(){ /* Got this code from Google Developer, Maps API Marker Clusters section https://developers.google.com/maps/documentation/javascript/marker-clustering */
     
@@ -422,11 +432,11 @@ $("#button-l").click(function(){
 });
 
 /*  Fading the background on the map section  */
-$("#map-container").mouseenter(function(){
+$("#map-intro, #map, #button-heading, #location-details-container").mouseenter(function(){
     $("#calf-of-man-2").fadeTo(1000, 0.3);
 });
 
-$("#map-container").mouseleave(function(){
+$("#map-intro, #map, #button-heading, #location-details-container").mouseleave(function(){
     $("#calf-of-man-2").fadeTo(1000, 0.8);
 });
 
