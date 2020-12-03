@@ -1138,6 +1138,25 @@ center {
     }
 
     /* ========= BASIC INFORMATION SECTION ========= */
+    
+    #basic-info-section {
+        height: 900px;
+    }
+    .flip-box h2 {
+        font-size: 25px;
+    }
+
+    .flip-box h3 {
+        font-size: 15px;
+    }
+
+    .flip-box p {
+        font-size: 12px;
+    }
+
+    .basic-info-boxes {
+        height: 275px;
+    }
 
     /* ========= FACT SECTION ========= */
 
