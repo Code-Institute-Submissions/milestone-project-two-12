@@ -1130,6 +1130,12 @@ center {
     #menu li:hover {
         padding-bottom: 10px;
     }
+    
+    /* ========= WELCOME SECTION ========= */
+
+    #welcome-section {    
+        height: 500px;
+    }
 
     /* ========= BASIC INFORMATION SECTION ========= */
 
@@ -1140,7 +1146,7 @@ center {
     /* ========= CONTACT US SECTION ========= */
     
     /* ========= FOOTER SECTION ========= */
-    
+
     footer {
         width: 100%;
         height: 200px;
