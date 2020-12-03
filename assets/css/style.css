@@ -1132,7 +1132,29 @@ center {
     }
 
     /* ========= BASIC INFORMATION SECTION ========= */
-   
+
+    /* ========= FACT SECTION ========= */
+
+    /* ========= MAP SECTION ========= */
+
+    /* ========= CONTACT US SECTION ========= */
+    
+    /* ========= FOOTER SECTION ========= */
+    
+    footer {
+        width: 100%;
+        height: 200px;
+    }
+
+    #social-media-heading {
+        width: 600px;
+        height: 50px;
+    }
+
+    #social-media-heading h2 {
+        font-size: 30px;
+    }
+
 }
 
 
