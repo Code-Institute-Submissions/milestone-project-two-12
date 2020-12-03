@@ -221,6 +221,10 @@ footer {
 .minimize-section {
     height: 50px;
 }
+
+.show-background {
+    display: none;
+}
 /* ================================== WELCOME SECTION STYLING ================================== */
 
 #welcome-section {
@@ -402,6 +406,30 @@ footer {
     overflow: hidden;
 }
 
+#fact-button {
+    float: right;
+    position: relative;
+    border: 1px black solid;
+    margin: 15px;
+    padding: 5px;
+    background-color: #B01200;
+    color: white;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+#fact-button:hover {
+    float: right;
+    position: relative;
+    border: 1px black solid;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+    color: #B01200;
+    border-radius: 5px;
+    z-index: 2;
+}
+
 #facts-container {
     width: 100%;
     height: 100%;
@@ -446,7 +474,6 @@ footer {
 #facts-bottom {
     width: 700px;
     height: 750px;
-    display: block;
     margin: 0 auto;
     background-color: #B01200;
     position: relative;
@@ -593,6 +620,7 @@ center {
     padding: 5px;
     background-color: #B01200;
     color: white;
+    border-radius: 5px;
 }
 
 #question1:hover, #question2:hover, #question3:hover {
@@ -602,12 +630,13 @@ center {
     padding: 5px;
     background-color: white;
     color: #B01200;
+    border-radius: 5px;
 }
 
 /* ================================== MAPS SECTION STYLING ================================== */
 #maps-section {
     width:100%;
-    height: 2000px;
+    height: 1500px;
     overflow: hidden;
 }
 

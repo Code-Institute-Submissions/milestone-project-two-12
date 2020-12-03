@@ -73,6 +73,12 @@ $("#facts-bottom").mouseleave(function(){
 
 /* ================================ Did you know section ================================ */
 
+/* View background image button */
+ $("#fact-button").click(function() {
+    $("#button-toggle").toggleClass("show-background");
+    $("#facts-bottom").toggleClass("show-background");
+ });
+
 /* Question selector */
  $("#question1").click(function() {
     $("#fact-1").css("display","block");
