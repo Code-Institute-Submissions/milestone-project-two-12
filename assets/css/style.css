@@ -1101,6 +1101,37 @@ center {
         background-color: lightyellow;
     }
 
+    /* ========= HEADER SECTION ========= */
+
+    header {
+        height: 125px;
+    }
+    #menu-bar-bottom-inner {
+        width: 800px;
+    }
+
+    #menu-bar-top h1 {
+        font-size: 25px;
+        margin: 10px 30px 10px 30px;
+    }
+
+    #menu a:hover {
+        font-size: 20px;
+    }
+
+    #menu a:link {
+        font-size: 20px;
+    }
+
+    #menu li {
+        margin: 10px;
+    }
+
+    #menu li:hover {
+        padding-bottom: 10px;
+    }
+
+    /* ========= BASIC INFORMATION SECTION ========= */
    
 }
 
