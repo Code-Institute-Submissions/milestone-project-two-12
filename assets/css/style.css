@@ -1303,6 +1303,44 @@ center {
     }
 
 
+     /* ========= FOOTER SECTION ========= */
+
+    footer {
+        height: 100px;
+    }
+    #social-media-heading {
+        display: none;
+    }
+
+    #social-media-heading {
+        width: 300px;
+        height: 50px;
+    }
+
+    #social-media-heading h2 {
+        display: none;
+    } 
+
+    #social-media-links {
+        width: 250px;
+    }
+
+    #social-media-links a {
+        font-size: 50px;
+        margin-left: 15px;
+    }
+
+    #social-media-links a:hover {
+        font-size: 50px;
+        margin-left: 15px;
+    }
+
+    #social-media-links a :link {
+        text-decoration: none;
+        color: white;
+    }
+
+
 }
 
 
