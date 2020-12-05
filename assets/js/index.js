@@ -11,6 +11,13 @@ $("#welcome-box").mouseleave(function(){
     $("#bradda-head").fadeTo(1000, 0.8);
 });
 
+$("#dropdown").click(function(){
+    $("header").animate({height: "325px"}, "fast" );
+});
+
+$("header").mouseleave(function(){
+    $("header").animate({height: "100px"}, "fast" );
+});
 
 /* ================================ Basic info section ================================ */
 /* Flips the cards in the basic information section*/
