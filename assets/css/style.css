@@ -255,7 +255,7 @@ footer {
     font-size: 40px;
     text-align: center;
     opacity: 0.7;
-    background-color:#B01200;
+    background-color: #B01200;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -1248,6 +1248,10 @@ center {
         background-color: lightsteelblue;
     }
 
+    .section-headings {
+        font-size: 30px;
+    }
+
     /* ========= HEADER SECTION ========= */
 
     header {
@@ -1302,8 +1306,36 @@ center {
         color: white;
     }
 
+    /* ========= WELCOME SECTION ========= */
 
-     /* ========= FOOTER SECTION ========= */
+    #welcome-section {    
+        height: 200px;
+    }
+
+    #welcome-box {
+        width: 250px;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    #welcome-header h2 {
+        font-size: 20px;
+        height: 25px;
+    }
+
+    #welcome-text {
+        padding: 10px;
+    }
+
+    #welcome-text p {
+        font-size: 13px;
+    }
+
+    #bradda-head {
+        
+    }
+
+    /* ========= FOOTER SECTION ========= */
 
     footer {
         height: 100px;
@@ -1340,7 +1372,7 @@ center {
         color: white;
     }
 
-
+    
 }
 
 
