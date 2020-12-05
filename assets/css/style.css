@@ -116,6 +116,10 @@ header {
     border-bottom: 1px solid white;
 }
 
+#dropdown {
+    display: none;
+}
+
 
 /* ========================================== FOOTER.HTML STYLING ========================================== */
 footer {
@@ -1242,6 +1246,69 @@ center {
 @media screen and (max-width: 768px){
     body {
         background-color: lightsteelblue;
+    }
+
+    /* ========= HEADER SECTION ========= */
+
+    header {
+        height: 325px;
+    }
+    
+    #menu-bar-top h1 {
+        display: inline-block;
+        font-size: 15px;
+        margin: 10px;
+        float: left;
+        width: 175px;
+
+    }
+
+    #menu-bar-top h1 span {
+        display: none;
+
+    }
+
+    #menu {
+        background-color: #b01200;
+    }
+
+    #menu a:hover {
+        font-size: 20px;
+    }
+
+    #menu a:link {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    #menu li {
+        margin: 15px;
+        float: none;
+    }
+
+    #menu li:hover {
+        padding-bottom: 0px;
+        border-bottom: none;
+    }
+
+    #dropdown {
+        display: block;
+        margin: 10px;
+        float: left;
+    }
+    
+    #dropdown i {
+        font-size: 60px;
+        color: white;
+    }
+
+
+}
+
+
+@media screen and (max-width: 320px){
+    body {
+        background-color: black;
     }
 
 
