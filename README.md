@@ -95,7 +95,7 @@ Initially I wanted to make sure that all syntax used was valid on my website so 
 
 #### Upon checking my JS file there were no errors
 
-#### Upon checking my CSS file there were one error:
+#### Upon checking my CSS file there was one error:
 
 1) 563 Parse Error [,]
 
@@ -109,26 +109,182 @@ To clear this error I just removed the extra comma after the last targeted eleme
 
 To clear the errors, I removed the "center" tag from my html file and replaced it with a normal div. In my CSS file I targeted this new div and positioned it centrally within its container.
 
-#### Upon checking camping.html got four errors:
+#### Upon checking contact.html there were no errors
 
-1) Element br not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) From line 81, column 21; to line 81, column 24
-2) Element p not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) From line 82, column 21; to line 82, column 23
-3) Error: Attribute alt not allowed on element a at this point. From line 160, column 21; to line 160, column 198
-4) Element h2 not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) From line 180, column 17; to line 180, column 20
+## Live Website Testing
 
-Error 1 was caused by a line break tag being inside an an unordered list. I moved the line break tag below the unordered list which cleared the error and had no impact on page.
+Thorough testing was done on the live website on laptop/pc, mobile and tablet device screensizes. The testing undertaken is listed below.
 
-Error 2 was caused by a paragraph tag being inside an an unordered list. I moved the paragraph tag below the unordered list which cleared the error and had no impact on page.
+1) Navigation to specified sections from the header (all screen sizes)
+    - Welcome section
+        - When I landed on the website, I clicked on the "Welcome" link in the navigation bar at the top to see if the user is taken to the "Welcome" section.
+        - The user is taken to the "Welcome" section as expected
 
-Error 3 was caused by adding an alt attribute to an anchor tag which isn't required in the club shop banner section. I removed this tag which cleared the error.
+    - Basic Information section
+        - When I landed on the website, I clicked on the "Basic Information" link in the navigation bar at the top to see if the user is taken to the "Basic Information" section.
+        - The user is taken to the "Basic Information" section as expected
 
-Error 4 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons. To solve the alignment issues I created a new div that would contain the h2 and this helped align the h2 with the social media links
+    - Did you know section
+        - When I landed on the website, I clicked on the Did you know link in the navigation bar at the top to see if the user is taken to the "Did you know" section.
+        - The user is taken to the "Did you know" section as expected
 
-Upon checking contact.html got two errors:
+    - Things to do section
+        - When I landed on the website, I clicked on the "Things to do" link in the navigation bar at the top to see if the user is taken to the "Things to do" section.
+        - The user is taken to the "Things to do" section as expected
 
-1) Error: Attribute alt not allowed on element a at this point. From line 151, column 21; to line 151, column 198
-2) Element h2 not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) From line 171, column 17; to line 171, column 20
+    - Contact us section
+        - When I landed on the website, I clicked on the "Contact us" link in the navigation bar at the top to see if the user is taken to the "Contact us" section.
+        - The user is taken to the "Contact us" section as expected
 
-Error 1 was caused by adding an alt attribute to an anchor tag which isn't required in the club shop banner section. I removed this tag which cleared the error.
+2) Basic Information Section flip cards (all screen sizes)
+    - Capital flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
 
-Error 2 I had difficulty clearing. If I removed the h2 element it created alignment issues with the text and social media icons. To solve the alignment issues I created a new div that would contain the h2 and this helped align the h2 with the social media links
+    - Population flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
+
+    - Language flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
+
+    - Flag flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
+
+    - Currency flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
+
+    - Nationality flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
+
+    - Climate flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
+
+    - Government flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
+
+    - Work Permit flip card
+        - When I clicked the card it flipped over to reveal the other side as expected
+        - When I clicked the card a second time the card flipped back over as expected
+
+    - Reset cards
+        - I clicked several cards and then moved the mouse cursor out of the basic info section to see if the everything would reset
+        - Cards that I had flipped over, reset as expected
+        - Cards that I did not flip over, were unaffected as expected
+
+3) Basic Information Section links (all screen sizes)
+    - Population card link
+        - I flipped the "Population" card over and click on the link
+        - The link to the Government website opened in a new tab as expected
+
+    - Government card link
+        - I flipped the "Government" card over and click on the link
+        - The link to the Government website opened in a new tab as expected
+
+
+4) Did you know section buttons (laptop and tablet screen sizes)
+    - Hide/Show contents
+        - When I go to the "Did you know" section, I clicked on the "Hide/Show Contents" button
+        - All divs in the foreground are hidden to show the background image as expected
+        - When I click the button again, the divs are displayed again as expected
+
+    - Isle of Women button
+        - When I go to the "Did you know" section, I clicked on the "Isle of Women" button
+        - The Isle of Women question is the default one so when I clicked on the button nothing happened as expected
+        - After clicking on either the "Stayin' Alive" or "Purrrr-fect" button, I then clicked on "Isle of Women" button and the display changed to Isle of Women question as expected 
+
+    - Stayin' Alive button
+        - When I go to the "Did you know" section, I clicked on the "Stayin' Alive" button
+        - After clicking on the "Stayin' Alive" button, the Bee Gees question is display as expected
+        - I clicked on the button again and nothing happens as expected 
+
+    - Purrr-fect button
+        - When I go to the "Did you know" section, I clicked on the "Purrr-fect" button
+        - After clicking on the "Purrr-fect" button, the Bee Gees question is display as expected
+        - I clicked on the button again and nothing happens as expected 
+
+    - Input box (Isle of Women Question)
+        - I tried to input text into the box (which requires the user to guess a year) and I was unable to do so as expected
+        - I tried to input symbols/special characters into the box (which requires a year) and I was unable to do so as expected
+
+    - Guess button (Isle of Women Question)
+        - I clicked on the guess button (without inputting a year) and it displays text saying "Come on, have a guess" as expected
+        - I clicked on the guess button (after inputting 1881) and it displays text saying "Correct" as expected
+        - I clicked on the guess button (after inputting a year other than 1881) and it displays different text depending on the year input as expected
+
+    - Give up button (Isle of Women Question)
+        - I clicked on the Give up button and the input box is removed and replaced with the correct answer and some additional text as expected
+
+    - Reset button (Isle of Women Question)
+        - I clicked on the Reset button and the input box is display again, the question its original state as expected
+    
+    - Input box (Stayin Alive)
+        - I tried to input text into the box (which requires the user to guess a year) and I was unable to do so as expected
+        - I tried to input symbols/special characters into the box (which requires a year) and I was unable to do so as expected
+
+    - Guess button (Stayin Alive)
+        - I clicked on the guess button (without inputting a figure) and it displays text saying "Come on, have a guess" as expected
+        - I clicked on the guess button (after inputting 120) and it displays text saying "Correct" as expected
+        - I clicked on the guess button (after inputting a figure other than 120) and it displays different text depending on the year input as expected
+
+    - Give up button (Stayin Alive)
+        - I clicked on the Give up button and the input box is removed and replaced with the correct answer and some additional text as expected
+        
+    - Reset button (Stayin Alive)
+        - I clicked on the Reset button and the input box is display again, the question its original state as expected
+
+    - Leg button (Purrrr-fect)
+        - I clicked on the "Leg" button and it displays text "Correct" as expected
+
+    - Tail button (Purrrr-fect)
+        - I clicked on the "Leg" button and it displays text "Nope, try again!" as expected
+
+    - Toes button (Purrrr-fect)
+        - I clicked on the "Leg" button and it displays text "Try again!" as expected
+
+    - Give up button (Purrrr-fect)
+        - I clicked on the Give up button and the input box is removed and replaced with the correct answer and some additional text as expected
+        
+    - Reset button (Purrrr-fect)
+        - I clicked on the Reset button and the input box is display again, the question its original state as expected
+
+5) Things to do section buttons (laptop and tablet screen sizes)
+    - Hide/Show contents
+        - When I go to the "Things to do" section, I clicked on the "Hide/Show Contents" button
+        - All divs in the foreground are hidden to show the background image as expected
+        - When I click the button again, the divs are displayed again as expected
+
+    - Location buttons
+        - I clicked on each of the button (labelled A-L) and it display information about the different locations on the map as expected
+        - I clicked on each of the links and they opened in a new tab as expected
+
+
+6) Contact us section buttons
+    - Hide/Show contents
+        - When I go to the "Contact us" section, I clicked on the "Hide/Show Contents" button
+        - All divs in the foreground are hidden to show the background image as expected
+        - When I click the button again, the divs are displayed again as expected
+
+
+7) Contact us form
+    - Before inputting any information, I pressed the submit button at the bottom of the form which brought up an error asking the user to fill out the 'your issue/feedback' field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field only and tried to submit again which brought up an error asking the user to fill out the description field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field and tried to submit again which brought up an error asking the user to fill out the email field
+    - This was as expected as it is a mandatory field
+    - I input some text into this field and tried to submit again which brought up an error specifying that the '@' symbol was missing
+    - This was as expected as the field has a specific format with the email address expected to contain the '@' symbol
+    - I added the symbol and submitted again
+    - This time the form submits successfully and the user is taken to contact.html which advises the user's feedback enquiry has been sucessfully received
+    - This was as expected as there were no other mandatory fields in the feedback form
+
+8) contact.html
+    - After testing the feedback form, the user lands on contact.html which advises the user that they have successfully submitted their website feedback
+    - I clicked on the "Back to home page" link which navigates to the home page as expected
