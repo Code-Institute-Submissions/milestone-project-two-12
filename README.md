@@ -18,10 +18,11 @@ The website aims to provide summary information to potential tourists before the
     - As a tourist, I want to know the best places to visit
     - As a tourist, I want to be able to find my way round the island
     - As a tourist, I want to know the important information about the island
+    - As a tourist, I want to be able to interact with the website
 
 - People moving to the island
-    - As someone potentially moving to the island,  I want to know any restrictions on moving to the island
     - As someone potentially moving to the island, I want to know the important information about the island
+    - As someone potentially moving to the island, I want to be able to interact with the website
 
 #### Site Owner Goals
 
@@ -264,13 +265,11 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
         - I clicked on each of the button (labelled A-L) and it display information about the different locations on the map as expected
         - I clicked on each of the links and they opened in a new tab as expected
 
-
 6) Contact us section buttons
     - Hide/Show contents
         - When I go to the "Contact us" section, I clicked on the "Hide/Show Contents" button
         - All divs in the foreground are hidden to show the background image as expected
         - When I click the button again, the divs are displayed again as expected
-
 
 7) Contact us form
     - Before inputting any information, I pressed the submit button at the bottom of the form which brought up an error asking the user to fill out the 'your issue/feedback' field
@@ -288,3 +287,114 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 8) contact.html
     - After testing the feedback form, the user lands on contact.html which advises the user that they have successfully submitted their website feedback
     - I clicked on the "Back to home page" link which navigates to the home page as expected
+
+# Testing User Stories from User Experience (UX) Section
+
+## Tourists
+
+#### 1) As a tourist, I want to know the best places to visit
+- Upon entering the site, the user automatically lands on the home page.
+
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The user can either click on "Things to do" in the navigation bar or scroll down the page until they get to the section
+
+<br><br>
+<img src="assets/images/user_stories_ss_2.JPG" height="300px">
+<br><br>
+
+- The user can see several markers on the map and are instructed to click on the buttons (A-L) below the map
+- Each button displays details about the corresponding marker on the map
+
+<br><br>
+<img src="assets/images/user_stories_ss_3.JPG" height="300px">
+<br><br> 
+
+- The users can click on the link to find out more information regarding the chosen place
+
+
+
+#### 2) As a tourist, I want to be able to find my way round the island
+- Upon entering the site, the user automatically lands on the home page.
+
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The user can either click on "Things to do" in the navigation bar or scroll down the page until they get to the section
+- The user is presented with a map of the Isle of Man
+
+<br><br>
+<img src="assets/images/user_stories_ss_2.JPG" height="300px">
+<br><br>
+
+- The user can use the map to explore the island and find their way around
+
+#### 3) As a tourist, I want to know the important information about the island
+- Upon entering the site, the user automatically lands on the home page.
+
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The user can either click on "Basic Information" in the navigation bar or scroll down the page until they get to the section
+- The user is presented with a grid with headings for the key information they would need to know
+
+<br><br>
+<img src="assets/images/user_stories_ss_4.JPG" height="300px">
+<br><br>
+
+- In the section heading, the text instructs the users click on the tiles to reveal more information
+- The user can click on which ever one (or all) the tiles
+
+
+#### 4) As a tourist, I want to be able to interact with the website
+- Upon entering the site, the user automatically lands on the home page.
+
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The user can interact with website in as part of achieving the previous user goals
+- They can also interact in the "Did you know" section
+- The user can either click on "Did you know" in the navigation bar or scroll down the page until they get to the section
+
+<br><br>
+<img src="assets/images/user_stories_ss_4.JPG" height="300px">
+<br><br>
+
+- The user can have a go at the 3 questions in the section and see how they get on
+
+
+ 
+## Someone potentially moving to the island
+
+#### 1) As someone potentially moving to the island, I want to know the important information about the island
+- Upon entering the site, the user automatically lands on the home page.
+
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The user can either click on "Basic Information" in the navigation bar or scroll down the page until they get to the section
+- The user is presented with a grid with headings for the key information they would need to know
+
+<br><br>
+<img src="assets/images/user_stories_ss_4.JPG" height="300px">
+<br><br>
+
+- In the section heading, the text instructs the users click on the tiles to reveal more information
+- The user can click on which ever one (or all) the tiles
+
+#### 2) As someone potentially moving to the island, I want to be able to interact with the website
+- Upon entering the site, the user automatically lands on the "Home" page.
+
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The user can interact with website in as part of achieving the previous user goals
+- They can also interact in the "Did you know" section
+- The user can either click on "Did you know" in the navigation bar or scroll down the page until they get to the section
+
+<br><br>
+<img src="assets/images/user_stories_ss_4.JPG" height="300px">
+<br><br>
+
+- The user can have a go at the 3 questions in the section and see how they get on
