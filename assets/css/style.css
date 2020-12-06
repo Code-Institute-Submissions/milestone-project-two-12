@@ -1389,7 +1389,6 @@ center {
         width: 150px;
     }
 
-
     #form-1, #form-2, #form-3, #form-4, #giveUp {
         width: 150px;
         height: 25px;
@@ -1444,7 +1443,79 @@ center {
     }
 
     #lighthouse {
-        display: none;
+        display: none; 
+    }
+
+    /* ========= MAP SECTION ========= */
+    #maps-section {
+        height: 1300px;
+    }
+
+    #map-intro {
+        width: 210px;
+        height: 60px;
+        margin-top: 75px;
+        padding: 5px;
+    }
+
+    #map-intro h3 {
+        font-size: 13px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    #map {
+        width: 90%;
+        height: 400px;
+    }
+
+    #button-heading {
+        width: 250px;
+    }
+
+    #button-heading h3 {
+        font-size: 13px;
+    }
+
+    #location-details-container {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    #button-container {
+        width: 215px;
+        height: 140px;
+    }
+
+    .buttons {
+        margin-bottom: 5px;
+    }
+
+    #location-details-inner {
+        width: 250px;
+    }
+
+    .location {
+        height: 375px;
+    }
+
+    .location-header h2 {
+        font-size: 25px;
+    }
+
+    .location-text {
+        width: 90%;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .location-text p{
+        font-size: 13px;
+    }
+
+    .location-image-container {
+        width: 90%;
+        height: 125px;
     }
 
     /* ========= FOOTER SECTION ========= */
