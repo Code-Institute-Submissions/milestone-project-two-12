@@ -12,12 +12,9 @@ $("#welcome-box").mouseleave(function(){
 });
 
 $("#dropdown").click(function(){
-    $("header").animate({height: "325px"}, "fast" );
+    $("header").toggleClass("header-expand");
 });
 
-$("header").mouseleave(function(){
-    $("header").animate({height: "100px"}, "fast" );
-});
 
 /* ================================ Basic info section ================================ */
 /* Flips the cards in the basic information section*/
