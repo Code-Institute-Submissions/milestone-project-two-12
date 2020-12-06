@@ -352,7 +352,7 @@ footer {
     width: 100%;
     height: 100%;
     text-align: center;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
@@ -442,9 +442,8 @@ footer {
     position: relative;
 }
 
-#niarbyl {
-    width: 100%;
-    height: 100%;
+#lighthouse {
+    width: 200%;
     opacity: 0.8;
     position: absolute;
     z-index: 1;
@@ -454,27 +453,6 @@ footer {
 #facts-header, #facts-bottom {
     z-index: 2;
     position: relative;
-}
-
-#facts-top {
-    width: 1100px;
-    display: block;
-    background-color: lightcyan;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
-.fact-box {
-    height: 350px;
-    width: 300px;
-    display: inline-block; 
-    margin: 10px;
-    padding: 10px;
-    background-color: #B01200;
-    position: relative;
-    border: #B01200 2px solid;
-    border-radius: 5px;
-    box-shadow: 3px 7px 10px;
 }
 
 #facts-bottom {
@@ -607,6 +585,7 @@ footer {
 center {
     margin: 10px;
 }
+
 #button-toggle {
     height: 60px;
     width:350px;
@@ -1174,8 +1153,8 @@ center {
         width: 400px;
     }
 
-    #niarbyl {
-        height: 100%;
+    #lighthouse {
+        width: 250%;
         opacity: 0.8;
         position: absolute;
         z-index: 1;
@@ -1357,6 +1336,115 @@ center {
         width: 100%;
         float: left;
         height: 830px;
+    }
+
+    /* ========= FACT SECTION ========= */
+
+    #facts-section {
+        height: 1100px;
+    }
+
+    #button-toggle {
+        height: 150px;
+        width: 100px;
+        padding: 5px;
+        margin-top: 75px;
+    }
+
+    #question1, #question2, #question3 {
+        font-size: 13px; 
+        float: left;
+        position: relative;
+        display: block;
+        margin: 10px;
+    }
+
+    #question1:hover, #question2:hover, #question3:hover {
+        font-size: 13px; 
+        float: left;
+        position: relative;
+        display: block;
+        margin: 10px;
+    }
+
+    #facts-bottom {
+        width: 250px;
+        height: 600px;
+    }
+
+    .fact {
+        width: 200px;
+        padding: 5px;
+    }
+
+    .fact p {
+        font-size: 13px;
+    }
+
+    #lydia-becker {
+        width: 100px;
+    }
+
+    #beegees, #manxcat {
+        width: 150px;
+    }
+
+
+    #form-1, #form-2, #form-3, #form-4, #giveUp {
+        width: 150px;
+        height: 25px;
+    }
+
+    center {
+        margin-top: 20px;
+    }
+
+    #giveUp1 p, #instructions1, #answer-text1, #giveUp2 p, #instructions2, #answer-text2, #giveUp3 p, #instructions3, #answer-text3 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    #giveUp1 p, #giveUp2 p, #giveUp3 p {
+        font-size: 20px;
+    }
+
+    #guess1, #answer1, #reset1, #guess2, #answer2, #reset2, #answer3, #reset3, #leg, #tail, #toes {
+        font-size: 13px;
+        margin: 1px;
+        padding: 5px;
+    }
+
+    #leg, #tail, #toes {
+        margin: 3px;
+    }
+
+    #guess1:hover, #answer1:hover, #reset1:hover, #guess2:hover, #answer2:hover, #reset2:hover, #answer3:hover, #reset3:hover, #leg:hover, #tail:hover, #toes:hover {
+        font-size: 13px;
+        margin: 1px;
+        padding: 5px;
+    }
+
+    #leg:hover, #tail:hover, #toes:hover {
+        margin: 3px;
+    }
+
+    #guess-output1, #guess-output2, #guess-output3 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    #leg-text p, #tail-text p, #toes-text p {
+        font-size: 20px;
+    }
+
+    #form-1-year, #form-2-year, #form-3-year, #form-4-year {
+        width: 100%;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    #lighthouse {
+        display: none;
     }
 
     /* ========= FOOTER SECTION ========= */
