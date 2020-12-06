@@ -1344,6 +1344,10 @@ center {
         height: 1100px;
     }
 
+    #fact-button {
+        display: none;
+    }
+    
     #button-toggle {
         height: 150px;
         width: 100px;
@@ -1451,6 +1455,10 @@ center {
         height: 1300px;
     }
 
+    #map-button {
+        display: none;
+    }
+
     #map-intro {
         width: 210px;
         height: 60px;
@@ -1516,6 +1524,39 @@ center {
     .location-image-container {
         width: 90%;
         height: 125px;
+    }
+
+    /* ========= CONTACT US SECTION ========= */
+    #contact {
+        height: 500px;
+    }
+    #contact-button {
+        display: none;
+    }
+    #contact-form-container {
+        width: 230px;
+        height: 250px;
+    }
+
+    .form-box {
+        width: 200px;
+        height: 50px;
+    }
+
+    .form-box:hover {
+        width: 200px;
+        height: 50px;
+    }
+
+    #contact-form-container p {
+        font-size: 12px;
+    }
+    #contact-form label {
+        font-size: 12px;
+    }
+
+    #dragon-rock {
+        width: 300%;
     }
 
     /* ========= FOOTER SECTION ========= */
