@@ -363,8 +363,6 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 
 - The user can have a go at the 3 questions in the section and see how they get on
 
-
- 
 ## Someone potentially moving to the island
 
 #### 1) As someone potentially moving to the island, I want to know the important information about the island
@@ -398,3 +396,28 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 <br><br>
 
 - The user can have a go at the 3 questions in the section and see how they get on
+
+# Further Testing (THIS NEEDS TO BE COMMITED)
+
+1) The website was tested on three different internet browsers
+    - Google Chrome
+    - Microsoft Edge
+    - Internet Explorer 11
+
+2) All links on the website were clicked on to make sure they work as expected. All links opened as expected.
+
+3) The website was viewed (all pages) on various mobile and tablet devices by using the Inspect feature. The following devices were tested
+    - Moto G4
+    - Galaxy S5
+    - Pixel 2
+    - Pixel 2L
+    - iPhone 5/SE
+    - iPhone 6/7/8
+    - iPhone 6/7/8 plus
+    - iPhone X 
+    - iPad
+    - iPad Pro
+    - Surface Duo
+    - Galaxy Fold
+
+4) The website was tested on an actual iPhone 11 in addition to laptop/PC. 
