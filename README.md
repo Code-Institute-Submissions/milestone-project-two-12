@@ -88,6 +88,10 @@ Github was used to store the project
 
 Was used to create my wireframes for the project
 
+- Jasmine
+
+Was used to add automated test scripts
+
 # Testing
 
 ## Code Validation
@@ -421,3 +425,50 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
     - Galaxy Fold
 
 4) The website was tested on an actual iPhone 11 in addition to laptop/PC. 
+
+# Credits
+
+#### Code
+
+- w3schools.com - used to quickly look up various element tags
+- w3schools.com - specifically used to work out [how to make a flip card](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+- Code Institute for the course materials and general support
+- stackoverflow - was used to see if other programmers were having similar problems with certain syntax.
+- https://stackoverflow.com/questions/48070987/how-to-get-user-input-from-javascript-form - I read this post to help figure out how to take user input from a input box and run it through a JS function
+- Google Developer - used for adding marker clusters to my map https://developers.google.com/maps/documentation/javascript/marker-clustering
+
+#### Content
+    
+All content was written by the developer
+
+#### Media
+
+- The background images for each section were images pictures I took myself
+- The image of the Manx flag (basic info section) was obtained from [here](https://www.google.com/search?q=isle+of+man+flag&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk00mvJ_B0gUajx3jI6FcsBxXV5vACw:1605353818139&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjUhMaA-YHtAhWNQRUIHd08CRQQ_AUoAXoECBwQAw&biw=1920&bih=880#imgrc=tlZeqaBEcsE7eM)
+- The image of the Manx five pound note (basic info section) was obtained from [here](https://www.google.com/search?q=isle+of+man+five+pound&tbm=isch&ved=2ahUKEwjrsoWZ-YHtAhUs5IUKHfgIBHMQ2-cCegQIABAA&oq=isle+of+man+five+pound&gs_lcp=CgNpbWcQA1CJ6wFY3PABYKryAWgAcAB4AIABYIgBYJIBATGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=jcGvX6u4HqzIlwT4kZCYBw&bih=880&biw=1920&rlz=1C1CHBF_enIM911IM911#imgrc=oeF72dLoXZtUSM)
+
+- The image of the Sound Cafe (map section) was obtained from [here](https://www.google.com/search?q=the+sound+cafe&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk01npuQixOoY5GFPzXDAScbek-JuyQ:1605553256750&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi8-6T834ftAhVNecAKHS9bAGwQ_AUoAXoECCMQAw&biw=1920&bih=880#imgrc=0F-jYe8lnLMBqM)
+- The image of the Shed (map section) was obtained from [here](https://www.google.com/search?q=the+shed&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk00rGh1XlYQCD_p-w-A8FEvl1G0kLg:1605552749499&source=lnms&tbm=isch&sa=X&ved=2ahUKEwir67SK3oftAhWKYsAKHQZsCrUQ_AUoAXoECCYQAw&biw=1920&bih=937#imgrc=fM4aWYQIW-i4dM)
+- The image of the Tea Junction (map section) was obtained from [here](https://www.google.com/search?q=the+tea+junction&tbm=isch&ved=2ahUKEwi55c6L3oftAhXG0YUKHQeyDmgQ2-cCegQIABAA&oq=the+tea+jun&gs_lcp=CgNpbWcQARgAMgIIADIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDoECAAQQzoECCMQJzoGCAAQCBAeUMLJGViY3Blg3-IZaABwAHgAgAF2iAGxCJIBAzguM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=cMqyX7ltxqOXBIfkusAG&bih=937&biw=1920&rlz=1C1CHBF_enIM911IM911#imgrc=c-UUj43e7uIFVM)
+- The image of Silverdale Glen Cafe (map section) was obtained from [here](https://www.google.com/search?q=silverdale+glen+cafe&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk03FZs1TRHNNyEbVKWsAMeAIzrSlWA:1605553291720&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjJuvuM4IftAhW7QkEAHa2mCCIQ_AUoAXoECCIQAw&biw=1920&bih=880#imgrc=2pjxiOWVUoOdBM)
+
+- The image of La Mona Lisa restaurant (map section) was obtained from [here](https://www.google.com/search?q=mona+lisa+iom&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk03gHQDOMaNRKi_-8ALqt2e0ttN2yA:1605553423444&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiRn-PL4IftAhUIAcAKHaBvD9wQ_AUoAXoECCQQAw&biw=1920&bih=880#imgrc=yHhn4W0vpBFnpM)
+- The image of Ocean Views Bar & Grill (map section) was obtained from [here](https://www.google.com/search?q=ocean+views+restaurant+iom&tbm=isch&ved=2ahUKEwi16ajm4IftAhWU0YUKHclsDTQQ2-cCegQIABAA&oq=ocean+views+restaurant+iom&gs_lcp=CgNpbWcQAzoECCMQJzoECAAQGFCCZliyhQFgnYYBaAFwAHgAgAHDAYgBgQmSAQQxMS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=R82yX_WpBpSjlwTJ2bWgAw&bih=880&biw=1920&rlz=1C1CHBF_enIM911IM911#imgrc=ZhLM8MnuSAwqAM)
+- The image of Jaks restaurant (map section) was obtained from [here](https://www.google.com/search?q=jaks&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk01o9y6O87anfU0wT8tnsmJDIocM1Q:1605553612062&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj-xNul4YftAhXOesAKHckfDoEQ_AUoAnoECCQQBA&biw=1920&bih=880#imgrc=JVJgx_o8-05F5M)
+- The image of Portofino Restaurant (map section) was obtained from [here](https://www.google.com/search?q=portofino+restaurant+douglas+isle+of+man&tbm=isch&ved=2ahUKEwjWpqy24YftAhXWwoUKHVeIBYMQ2-cCegQIABAA&oq=portofino+restaurant+d&gs_lcp=CgNpbWcQARgBMgYIABAIEB4yBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBgyBAgAEBg6AggAULdCWIJNYMlXaABwAHgAgAF7iAHbAZIBAzEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=7s2yX9b3ONaFlwTXkJaYCA&bih=880&biw=1920&rlz=1C1CHBF_enIM911IM911#imgrc=hmR1ebY9frg6mM)
+
+- The image of Castle Rushen (map section) was obtained from [here](https://www.google.com/search?q=castle+rushen&tbm=isch&ved=2ahUKEwiklLeP4oftAhUa_BoKHTZsDkUQ2-cCegQIABAA&oq=castle+rushen&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyBAgAEEMyAggAMgIIADICCAAyAggAMgYIABAFEB46BAgjECdQsJcCWJWyAmDKtAJoAHAAeACAAaMBiAGzC5IBBDEyLjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=qc6yX-SbLpr4a7bYuagE&bih=880&biw=1920&rlz=1C1CHBF_enIM911IM911#imgrc=iTly74-kFIlh-M)
+- The image of Peel Castle (map section) was obtained from [here](https://www.google.com/search?q=peel+castle+isle+of+man&tbm=isch&ved=2ahUKEwjauIiB4oftAhVCyRoKHTkHBIMQ2-cCegQIABAA&oq=peel+cas&gs_lcp=CgNpbWcQARgAMgQIABBDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOgQIIxAnUJnXAVjn3AFg9eIBaABwAHgAgAHLAogB8wiSAQczLjMuMS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=i86yX5rHJsKSa7mOkJgI&bih=880&biw=1920&rlz=1C1CHBF_enIM911IM911#imgrc=k09-GKgALEtoHM)
+- The image of Laxey Wheel (map section) was obtained from [here](https://www.google.com/search?q=laxey+wheel&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk010iaGVlKha5hPzBSvn2ToKzZykMA:1605553905125&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiV3Lqx4oftAhUgQ0EAHbv3BhcQ_AUoAXoECCcQAw&biw=1920&bih=880#imgrc=3wpuKaXfp6ayWM)
+- The image of the Calf of Man (map section) was obtained from [here](https://www.google.com/search?q=calf+of+man&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk02YbtOX2wTN8pgnSFGt2hzPFkoCSg:1605553801729&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiu9ZOA4oftAhUTilwKHT5VBOIQ_AUoAXoECBoQAw&biw=1920&bih=880#imgrc=aMSRtm2w8CBl4M)
+
+- The image of Lydia Becker (Did you know section) was obtained from [here](https://www.google.com/search?q=lydia+becker&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk00MuA6yKHx_0qd33z7u-VzTswaegA:1605819490813&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiFycriv4_tAhXUN8AKHaZIA5oQ_AUoAXoECBcQAw&biw=1920&bih=937#imgrc=3iYGrSFXVMmsFM)
+- The image of the Bee Gees (Did you know section) was obtained from [here](https://www.google.com/search?q=the+bee+gees&rlz=1C1CHBF_enIM911IM911&sxsrf=ALeKk00LIvW5cCBPhd88xZXWWKH2rstpfg:1606076797185&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjok-mn_pbtAhXTa8AKHYD5CpIQ_AUoAXoECCgQAw&biw=1920&bih=937#imgrc=PERlWSHRtjbP-M)
+- The image of the cat (Did you know section) was one of my own pictures
+
+
+#### Acknowledgements
+
+- My mentor for the feedback throughout the project at each mentor session
+- Code Institute for the course materials and general support
+- Google Developer for use of the Maps API and guidance notes
