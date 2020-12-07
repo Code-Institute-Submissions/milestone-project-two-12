@@ -336,13 +336,21 @@ $("#reset3").click(function(){
 
 /* Map */
 function initMap(){ /* Got this code from Google Developer, Maps API Marker Clusters section https://developers.google.com/maps/documentation/javascript/marker-clustering */
-    
+    const directionsService = new google.maps.DirectionsService();
+    const directionsRenderer = new google.maps.DirectionsRenderer();
     const mapCenter = {lat: 54.236107, lng: -4.548056};
     const map = new google.maps.Map(document.getElementById("map"),{
         zoom: 10,
         center: mapCenter,
         }
     );
+    directionsRenderer.setMap(map);
+
+    const onChangeHandler = function () {
+        calculateAndDisplayRoute(directionsService, directionsRenderer);
+    };
+    document.getElementById("start").addEventListener("change", onChangeHandler);
+    document.getElementById("end").addEventListener("change", onChangeHandler);
     
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -372,6 +380,27 @@ const locations = [
         { lat: 54.238371, lng: -4.407430 }, /* (K) Laxey Wheel */
         { lat: 54.060854, lng: -4.803142 }, /* (L) Calf of Mann */
 ];
+
+function calculateAndDisplayRoute(directionsService, directionsRenderer) {
+  directionsService.route(
+    {
+      origin: {
+        query: document.getElementById("start").value,
+      },
+      destination: {
+        query: document.getElementById("end").value,
+      },
+      travelMode: google.maps.TravelMode.DRIVING,
+    },
+    (response, status) => {
+      if (status === "OK") {
+        directionsRenderer.setDirections(response);
+      } else {
+        window.alert("Directions request failed due to " + status);
+      }
+    }
+  );
+}
 
 /* Map buttons */
 $("#button-a").click(function(){
@@ -443,6 +472,7 @@ $("#map-intro, #map, #button-heading, #location-details-container").mouseenter(f
 $("#map-intro, #map, #button-heading, #location-details-container").mouseleave(function(){
     $("#calf-of-man-2").fadeTo(1000, 0.8);
 });
+
 
 /* ================================ Contact section ================================ */
 /* Fading the background on the contact section  */

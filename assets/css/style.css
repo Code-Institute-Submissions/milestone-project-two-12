@@ -629,7 +629,7 @@ footer {
 /* ================================== MAPS SECTION STYLING ================================== */
 #maps-section {
     width:100%;
-    height: 1500px;
+    height: 1650px;
     overflow: hidden;
 }
 
@@ -762,7 +762,7 @@ footer {
 }
 
 #button-heading {
-    height: 30px;
+    height: 225px;
     width: 600px;
     margin: auto;
     margin-top: 20px;
@@ -771,6 +771,7 @@ footer {
     background-color: #B01200;
     border-radius: 5px;
     box-shadow: 2px 5px 8px black;
+    padding: 10px;
 }
 
 #button-heading h3 {
@@ -779,6 +780,24 @@ footer {
     text-align: center;
 }
 
+#directions {
+    width: 40%;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#start {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#directions p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
 
 #button-container {
     height: 50px;

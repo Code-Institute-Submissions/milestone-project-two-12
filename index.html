@@ -334,7 +334,50 @@
             <div id="map"> 
                 <!--Google maps API-->  
             </div>
-            <div id="button-heading">       
+            <div id="button-heading">           
+                <h3>Need help finding your way around? Just select where you are and where you need to go to from the list below</h3>   
+                <div id="directions">
+                    <p>From: </p>
+                    <select id="start">  
+                        <option value="douglas, isle of man">Douglas</option>
+                        <option value="54.153042, -4.479047">The Tea Junction</option>
+                        <option value="54.146948, -4.484625">Portofino Restaurant</option>
+                        <option value="54.152763, -4.478363">Jaks Bar and Stakehouse</option>
+                        <option value="onchan, isle of man">Onchan</option>
+                        <option value="54.169741, -4.455851">Ocean Views Bar & Grill</option>
+                        <option value="laxey, isle of man">Laxey</option>
+                        <option value="54.223635, -4.393898">The Shed</option>
+                        <option value="54.226702, -4.392331">La Mona Lisa</option>
+                        <option value="54.238371, -4.407430">Laxey Wheel</option>
+                        <option value="castletown, isle of man">Castletown</option>
+                        <option value="54.073717, -4.652186">Castle Rushen</option>
+                        <option value="54.106170, -4.638335">Silverdale Glen Cafe</option>
+                        <option value="peel, isle of man">Peel</option>
+                        <option value="54.226539, -4.699166">Peel Castle</option>
+                        <option value="port erin, isle of man">Port Erin</option>
+                        <option value="54.063889, -4.792477">The Cafe at the Sound</option>                        
+                    </select>
+                    <p>To: </p>
+                    <select id="end">
+                       <option value="douglas, isle of man">Douglas</option>
+                        <option value="54.153042, -4.479047">The Tea Junction</option>
+                        <option value="54.146948, -4.484625">Portofino Restaurant</option>
+                        <option value="54.152763, -4.478363">Jaks Bar and Stakehouse</option>
+                        <option value="onchan, isle of man">Onchan</option>
+                        <option value="54.169741, -4.455851">Ocean Views Bar & Grill</option>
+                        <option value="laxey, isle of man">Laxey</option>
+                        <option value="54.223635, -4.393898">The Shed</option>
+                        <option value="54.226702, -4.392331">La Mona Lisa</option>
+                        <option value="54.238371, -4.407430">Laxey Wheel</option>
+                        <option value="castletown, isle of man">Castletown</option>
+                        <option value="54.073717, -4.652186">Castle Rushen</option>
+                        <option value="54.106170, -4.638335">Silverdale Glen Cafe</option>
+                        <option value="peel, isle of man">Peel</option>
+                        <option value="54.226539, -4.699166">Peel Castle</option>
+                        <option value="port erin, isle of man">Port Erin</option>
+                        <option value="54.063889, -4.792477">The Cafe at the Sound</option>        
+                    </select>
+                </div>
                 <h3>Click on the buttons below to find out more information</h3>
             </div> 
             <div id="location-details-container">                              
@@ -648,7 +691,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> 
     <script src="assets/js/index.js"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>               
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaN0v6TQODTpGRZQ-ZZQimMxZg_bADKvg&callback=initMap"></script>           
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaN0v6TQODTpGRZQ-ZZQimMxZg_bADKvg&callback=initMap"></script>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaN0v6TQODTpGRZQ-ZZQimMxZg_bADKvg&callback=initMap&libraries=&v=weekly" defer></script>
+             
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine.js" integrity="sha512-dqL4nYnbiMiNNy/V2zRK55QXSRVyu26KCuGoL8Zf5lDfKRRf8pBFW8RXe8at36QlB8s8bnOjKP6b5YTalHO6wQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/jasmine-html.js" integrity="sha512-bqig44hBpNuvBzxsqbHiqwRximGm4UfJAvOeNQHjB7++0D2u/3bcw4ZwmVsqrooii2UJ91oDI/6aANdp3BwcQQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.6.0/boot.js" integrity="sha512-igPP1Xd0hsvXVZGyfIYeUD779NLEA1Sj/5ts2C/e/22zeUqR6ehA7M/nNLuONalznkHQkGPBESNwzGpwBQD60g==" crossorigin="anonymous"></script>
