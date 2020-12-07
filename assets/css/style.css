@@ -1338,7 +1338,7 @@ footer {
     /* ========= WELCOME SECTION ========= */
 
     #welcome-section {    
-        height: 200px;
+        height: 190px;
     }
 
     #welcome-box {
@@ -1502,7 +1502,7 @@ footer {
 
     /* ========= MAP SECTION ========= */
     #maps-section {
-        height: 1300px;
+        height: 1550px;
     }
 
     #map-button {
@@ -1533,6 +1533,11 @@ footer {
 
     #button-heading h3 {
         font-size: 13px;
+    }
+
+    #directions {
+        width: 70%;
+        border: 1px black solid;
     }
 
     #location-details-container {
