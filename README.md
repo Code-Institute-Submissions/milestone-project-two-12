@@ -22,6 +22,7 @@ The website aims to provide summary information to potential tourists before the
 
 - People moving to the island
     - As someone potentially moving to the island, I want to know the important information about the island
+    - As someone potentially moving to the island, I want to be able to find my way round the island
     - As someone potentially moving to the island, I want to be able to interact with the website
 
 #### Site Owner Goals
@@ -56,6 +57,7 @@ Imagery
 ### Features left to implement
 
 - A picture slideshow which automatically cycles through pictures of the island
+- Place API to allow users to search for places on the island other than the ones listed on the site
 
 # Technologies Used
 
@@ -120,7 +122,7 @@ To clear the errors, I removed the "center" tag from my html file and replaced i
 
 Thorough testing was done on the live website on laptop/pc, mobile and tablet device screensizes. The testing undertaken is listed below.
 
-1) Navigation to specified sections from the header (all screen sizes)
+1) Navigation to specified sections from the header
     - Welcome section
         - When I landed on the website, I clicked on the "Welcome" link in the navigation bar at the top to see if the user is taken to the "Welcome" section.
         - The user is taken to the "Welcome" section as expected
@@ -141,7 +143,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
         - When I landed on the website, I clicked on the "Contact us" link in the navigation bar at the top to see if the user is taken to the "Contact us" section.
         - The user is taken to the "Contact us" section as expected
 
-2) Basic Information Section flip cards (all screen sizes)
+2) Basic Information Section flip cards
     - Capital flip card
         - When I clicked the card it flipped over to reveal the other side as expected
         - When I clicked the card a second time the card flipped back over as expected
@@ -193,7 +195,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
         - The link to the Government website opened in a new tab as expected
 
 
-4) Did you know section buttons (laptop and tablet screen sizes)
+4) Did you know section buttons
     - Hide/Show contents
         - When I go to the "Did you know" section, I clicked on the "Hide/Show Contents" button
         - All divs in the foreground are hidden to show the background image as expected
@@ -259,11 +261,53 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
     - Reset button (Purrrr-fect)
         - I clicked on the Reset button and the input box is display again, the question its original state as expected
 
-5) Things to do section buttons (laptop and tablet screen sizes)
+5) Things to do section buttons
     - Hide/Show contents
         - When I go to the "Things to do" section, I clicked on the "Hide/Show Contents" button
         - All divs in the foreground are hidden to show the background image as expected
         - When I click the button again, the divs are displayed again as expected
+
+    - Directions 
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "The Tea Junction"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Portofino Restaurant"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Jaks Bar and Steakhouse"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Onchan"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Ocean Views and Grill"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Laxey"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "The Shed"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "La Mona Lisa"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Laxey Wheel"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Castletown"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Castle Rushen"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Silverdale Glen Cafe"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Peel"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Peel Castle"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Port Erin"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "The Cafe at the Sound"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Ramsey"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Kirk Michael"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "St John's"
+        - The route is displayed within the map as expected
+        - In the "From" box, I selected "Douglas" and in the "To" box I selected "Port St Mary"
+        - The route is displayed within the map as expected
 
     - Location buttons
         - I clicked on each of the button (labelled A-L) and it display information about the different locations on the map as expected
@@ -316,8 +360,6 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 <br><br> 
 
 - The users can click on the link to find out more information regarding the chosen place
-
-
 
 #### 2) As a tourist, I want to be able to find my way round the island 
 - Upon entering the site, the user automatically lands on the home page.
@@ -392,7 +434,29 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 - In the section heading, the text instructs the users click on the tiles to reveal more information
 - The user can click on which ever one (or all) the tiles
 
-#### 2) As someone potentially moving to the island, I want to be able to interact with the website
+#### 2) As someone potentially moving to the island, I want to be able to find my way round the island
+- Upon entering the site, the user automatically lands on the home page.
+
+<img src="assets/images/user_stories_ss_1.JPG" height="300px">
+<br><br>
+
+- The user can either click on "Things to do" in the navigation bar or scroll down the page until they get to the section
+- The user is presented with a map of the Isle of Man
+
+<br><br>
+<img src="assets/images/user_stories_ss_2.JPG" height="300px">
+<br><br>
+
+- The user can use the map to explore the island and find their way around
+- If they need specific directions between towns and villages, or possibly one of the top things to do, then they can use the two drop downs below to plan a route
+
+<br><br>
+<img src="assets/images/user_stories_ss_6.JPG" height="300px">
+<br><br>
+
+- The drop downs allow users to plan a journey between the major towns and villages
+
+#### 3) As someone potentially moving to the island, I want to be able to interact with the website
 - Upon entering the site, the user automatically lands on the "Home" page.
 
 <img src="assets/images/user_stories_ss_1.JPG" height="300px">
@@ -408,7 +472,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 
 - The user can have a go at the 3 questions in the section and see how they get on
 
-# Further Testing (THIS NEEDS TO BE COMMITED)
+# Further Testing
 
 1) The website was tested on three different internet browsers
     - Google Chrome
@@ -432,6 +496,26 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
     - Galaxy Fold
 
 4) The website was tested on an actual iPhone 11 in addition to laptop/PC. 
+
+# Deployment
+#### GitHub Pages
+The following steps were taken to deploy the project in Github Pages
+1) Logged into Github
+2) Went to the repository for my milestone project one
+3) Clicked on settings
+4) Scrolled down to GitHub pages
+5) Underneath the "source" heading, change "none" to "master" and click save.
+6) After saving refresh the page (if it does not automatically) and then the link to the live website will be available
+
+#### Local Deployment
+The following steps were taken to download a copy of the repository to my desktop
+1) Logged into GitHub
+2) Navigated to the repository for this project, 'howler118/milestone-project-one'
+3) Clicked on the green code button and copied the url for the repository
+4) Opened git bash
+5) Changed the director to my milestone one project folder on my pc
+6) Enter git clone and pasted the url for my repository
+7) Once the download was completed I checked the porject folder on my pc and the repository downloaded as expected
 
 # Credits
 
