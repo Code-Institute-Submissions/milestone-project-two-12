@@ -319,7 +319,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 
 
 
-#### 2) As a tourist, I want to be able to find my way round the island
+#### 2) As a tourist, I want to be able to find my way round the island 
 - Upon entering the site, the user automatically lands on the home page.
 
 <img src="assets/images/user_stories_ss_1.JPG" height="300px">
@@ -333,6 +333,13 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 <br><br>
 
 - The user can use the map to explore the island and find their way around
+- If they need specific directions between towns and villages, or possibly one of the top things to do, then they can use the two drop downs below to plan a route
+
+<br><br>
+<img src="assets/images/user_stories_ss_6.JPG" height="300px">
+<br><br>
+
+- The drop downs allow users to plan a journey between the major towns and villages
 
 #### 3) As a tourist, I want to know the important information about the island
 - Upon entering the site, the user automatically lands on the home page.
@@ -436,6 +443,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 - stackoverflow - was used to see if other programmers were having similar problems with certain syntax.
 - https://stackoverflow.com/questions/48070987/how-to-get-user-input-from-javascript-form - I read this post to help figure out how to take user input from a input box and run it through a JS function
 - Google Developer - used for adding marker clusters to my map https://developers.google.com/maps/documentation/javascript/marker-clustering
+- Google Developer - used for adding Directions API to map section https://developers.google.com/maps/documentation/javascript/examples/directions-simple#maps_directions_simple-javascript
 
 #### Content
     

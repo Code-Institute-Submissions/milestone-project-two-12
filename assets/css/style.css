@@ -1107,9 +1107,6 @@ footer {
 /* ========================================== TABLET STYLING ========================================== */
 
 @media screen and (max-width: 1393px){
-    body {
-        background-color: lightyellow;
-    }
 
     /* ========= HEADER SECTION ========= */
 
@@ -1262,9 +1259,6 @@ footer {
 /* =============================================== MOBILE PHONE SCREENS =============================================== */
 
 @media screen and (max-width: 768px){
-    body {
-        background-color: lightsteelblue;
-    }
 
     .section-headings {
         height: 60px;
@@ -1537,7 +1531,6 @@ footer {
 
     #directions {
         width: 70%;
-        border: 1px black solid;
     }
 
     #location-details-container {
@@ -1652,13 +1645,4 @@ footer {
     }
 
     
-}
-
-
-@media screen and (max-width: 320px){
-    body {
-        background-color: black;
-    }
-
-
 }
