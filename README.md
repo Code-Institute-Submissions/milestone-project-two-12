@@ -1,7 +1,7 @@
 # Milestone project two - Isle of Man tourist information website 
 The Isle of Man is often considered the motorcycling capital of the world with the annual Tourist Trophy (TT) races drawing thousands of tourists to the island. With COVID halting tourism globally, this has already lead to the postponement of the 2020 TT and could eventually lead to the full cancellation of the TT races full stop! This would damage tourism on the island so the island needs to find ways to boost tourism and draw interest in the island.
 
-The website aims to provide summary information to potential tourists before they visit the island. The information is provide in summary form as people do not want to trawl through pages and pages of information. This can be quite off putting. 
+The website aims to provide summary information to potential tourists before they visit the island. The information is provided in summary form as people do not want to trawl through pages and pages of information. This can be quite off putting. 
 
 [Click here to view the live website](https://howler118.github.io/milestone-project-two/)
 
@@ -52,12 +52,14 @@ Imagery
 - Form on the contact us page which allows users to submit feedback on the website
 - The website is responsive and works on all devices
 - Google Maps API with markers to show the top things to do and see on the island
+- Directions API to map routes between two destinations
 - Links for all the websites or Facebook pages of the top things to do/see on the island
 
 ### Features left to implement
 
 - A picture slideshow which automatically cycles through pictures of the island
 - Place API to allow users to search for places on the island other than the ones listed on the site
+- Ability to select a language for the website
 
 # Technologies Used
 
@@ -132,7 +134,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
         - The user is taken to the "Basic Information" section as expected
 
     - Did you know section
-        - When I landed on the website, I clicked on the Did you know link in the navigation bar at the top to see if the user is taken to the "Did you know" section.
+        - When I landed on the website, I clicked on the "Did you know" link in the navigation bar at the top to see if the user is taken to the "Did you know" section.
         - The user is taken to the "Did you know" section as expected
 
     - Things to do section
@@ -208,12 +210,12 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 
     - Stayin' Alive button
         - When I go to the "Did you know" section, I clicked on the "Stayin' Alive" button
-        - After clicking on the "Stayin' Alive" button, the Bee Gees question is display as expected
+        - After clicking on the "Stayin' Alive" button, the Bee Gees question is displayed as expected
         - I clicked on the button again and nothing happens as expected 
 
     - Purrr-fect button
         - When I go to the "Did you know" section, I clicked on the "Purrr-fect" button
-        - After clicking on the "Purrr-fect" button, the Bee Gees question is display as expected
+        - After clicking on the "Purrr-fect" button, the Manx Cat question is displayed as expected
         - I clicked on the button again and nothing happens as expected 
 
     - Input box (Isle of Women Question)
@@ -232,8 +234,8 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
         - I clicked on the Reset button and the input box is display again, the question its original state as expected
     
     - Input box (Stayin Alive)
-        - I tried to input text into the box (which requires the user to guess a year) and I was unable to do so as expected
-        - I tried to input symbols/special characters into the box (which requires a year) and I was unable to do so as expected
+        - I tried to input text into the box (which requires the user to guess a number) and I was unable to do so as expected
+        - I tried to input symbols/special characters into the box (which requires a number) and I was unable to do so as expected
 
     - Guess button (Stayin Alive)
         - I clicked on the guess button (without inputting a figure) and it displays text saying "Come on, have a guess" as expected
@@ -247,13 +249,13 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
         - I clicked on the Reset button and the input box is display again, the question its original state as expected
 
     - Leg button (Purrrr-fect)
-        - I clicked on the "Leg" button and it displays text "Correct" as expected
+        - I clicked on the "Tail" button and it displays text "Correct" as expected
 
     - Tail button (Purrrr-fect)
         - I clicked on the "Leg" button and it displays text "Nope, try again!" as expected
 
     - Toes button (Purrrr-fect)
-        - I clicked on the "Leg" button and it displays text "Try again!" as expected
+        - I clicked on the "Toes" button and it displays text "Try again!" as expected
 
     - Give up button (Purrrr-fect)
         - I clicked on the Give up button and the input box is removed and replaced with the correct answer and some additional text as expected
@@ -406,7 +408,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 <img src="assets/images/user_stories_ss_1.JPG" height="300px">
 <br><br>
 
-- The user can interact with website in as part of achieving the previous user goals
+- The user can interact with website as part of achieving the previous user goals
 - They can also interact in the "Did you know" section
 - The user can either click on "Did you know" in the navigation bar or scroll down the page until they get to the section
 
@@ -462,7 +464,7 @@ Thorough testing was done on the live website on laptop/pc, mobile and tablet de
 <img src="assets/images/user_stories_ss_1.JPG" height="300px">
 <br><br>
 
-- The user can interact with website in as part of achieving the previous user goals
+- The user can interact with website as part of achieving the previous user goals
 - They can also interact in the "Did you know" section
 - The user can either click on "Did you know" in the navigation bar or scroll down the page until they get to the section
 
